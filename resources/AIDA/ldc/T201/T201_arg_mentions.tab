@@ -1,0 +1,622 @@
+root_uid	argmention_id	child_uid	textoffset_startchar	textoffset_endchar	text_string	mediamention_signaltype	mediamention_starttime	mediamention_endtime	keyframe_id	mediamention_coordinates	description	type	subtype	subsubtype	arg_status	level
+JC002YCXK	EMJC002YCXK.000113	JC002YEOG	240	274	eight people in the city of Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 people with disease in Maracay (1)	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.000126	JC002YEOG	210	227	an unknown disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	unknown disease	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000139	JC002YEOG	268	274	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	base	nam
+JC002YCXK	EMJC002YCXK.000220	JC002YEOG	342	352	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000254	JC002YEOG	407	447	the doctor who first announced the deaths	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Dr Angel Sarmiento	per	professionalposition	medicalpersonnel	base	nom
+JC002YCXK	EMJC002YCXK.000267	JC002YEOG	459	469	the country	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YCXK	EMJC002YCXK.000429	JC002YEOG	642	670	the eight original fatalities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 victims who died in MARACAY	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.000442	JC002YEOG	605	632	an unknown hemorrhagic fever	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Unknown hemorrhagic fever	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000536	JC002YEOG	907	915	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YCXK	EMJC002YCXK.000549	JC002YEOG	635	670	six of the eight original fatalities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	6 people who died in Maracay had chikungunya	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.000562	JC002YEOG	692	702	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000643	JC002YEOG	964	989	an unknown or rare disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Unknown or rare disease	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000724	JC002YEOG	1055	1065	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000810	JC002YEOG	1442	1448	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YCXK	EMJC002YCXK.000844	JC002YEOG	1852	1897	between 65,000 and 117,000 people in Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	65,000 to 117,000 people in Venezuela, infected with chikungunya	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.000857	JC002YEOG	1917	1927	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000870	JC002YEOG	1889	1897	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YCXK	EMJC002YCXK.000951	JC002YEOG	2181	2191	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000964	JC002YEOG	2109	2117	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YCXK	EMJC002YCXK.000998	JC002YEOG	2212	2265	Many infectious diseases, including malaria and dengue	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Many infectious diseases, including malaria and dengue	mhi	disease	disease	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001011	JC002YEOG	2287	2295	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YCXK	EMJC002YCXK.001045	JC002YEOG	2304	2327	the public health system	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelan public health system	org	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.001058	JC002YEOG	2360	2364	funds	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Funds	mon	unspecified	unspecified	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001071	JC002YEOG	2370	2453	medicine (including antifever drugs that can help treat the symptoms of chikungunya)	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	medicine (including antifever drugs that can help treat the symptoms of chikungunya)	com	unspecified	unspecified	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001118	JC002YEOG	2671	2679	Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Dr Angel Sarmiento	per	professionalposition	medicalpersonnel	base	nam
+JC002YCXK	EMJC002YCXK.001191	JC002YEOG	2716	2730	Central America	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	loc	land	continent	base	nam
+JC002YCXK	EMJC002YCXK.001238	JC002YEOG	709	715	samples	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Samples taken from people who tested positive for chikungunya	com	unspecified	unspecified	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001272	JC002YEOG	277	285	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YCXK	EMJC002YCXK.001306	JC002YEOG	2497	2503	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	informative	nam
+JC002YCXK	EMJC002YCXK.001340	JC002YEOG	355	376	a mosquito-borne virus	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	mosquito-borne virus (chikungunya)	mhi	disease	disease	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001353	JC002YEOG	2248	2254	malaria	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Malaria	mhi	disease	disease	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001366	JC002YEOG	2260	2265	dengue	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Dengue	mhi	disease	disease	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001400	JC002YEOG	847	915	Institute of Tropical Medicine at the Central University of Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Institute of Tropical Medicine at the Central University of Venezuela	org	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001434	JC002YEOG	918	920	UCV	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Institute of Tropical Medicine at the Central University of Venezuela	org	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001447	JC002YEOG	1002	1017	Science  Insider	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	ScienceInsider	org	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001460	JC002YEOG	1822	1835	UCV’s hospital	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	UCV’s hospital	org	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001494	JC002YEOG	1964	1988	World Health Organization	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	World Health Organization	org	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001507	JC002YEOG	2109	2143	Venezuela’s federal health ministry	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela’s federal health ministry	org	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001520	JC002YEOG	2592	2605	the government	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela's government	org	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001533	JC002YEOG	288	294	doctors	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors who concluded that deaths in Maracay were caused by chikungunya	per	professionalposition	medicalpersonnel	informative	nom
+JC002YCXK	EMJC002YCXK.001624	JC002YEOG	1793	1807	Manuel Olivares	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Manuel Olivares	per	professionalposition	medicalpersonnel	informative	nam
+JC002YCXK	EMJC002YCXK.001650	JC002YEOG	1810	1835	a doctor at UCV’s hospital	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Manuel Olivares	per	professionalposition	medicalpersonnel	informative	nom
+JC002YCXK	EMJC002YCXK.001663	JC002YEOG	2456	2464	Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YCXK	EMJC002YCXK.001832	JC002YEOG	390	404	Ángel Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YCXK	EMJC002YCXK.001689	JC002YEOG	517	530	Nicolás Maduro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolás Maduro	per	politician	headofgovernment	informative	nam
+JC002YCXK	EMJC002YCXK.001702	JC002YEOG	543	551	officials	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	officials who initially speculated that the deaths were caused by an unknown hemorrhagic fever	per	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001728	JC002YEOG	761	772	Julio Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001741	JC002YEOG	775	822	the health minister of the municipality of Sucre	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001754	JC002YEOG	828	915	a professor in the Institute of Tropical Medicine at the Central University of Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001767	JC002YEOG	925	926	We	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro and others not specified	per	unspecified	unspecified	informative	pro
+JC002YCXK	EMJC002YCXK.001780	JC002YEOG	993	994	he	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	pro
+JC002YCXK	EMJC002YCXK.001793	JC002YEOG	1033	1033	I	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	pro
+JC002YCXK	EMJC002YCXK.001806	JC002YEOG	1637	1642	Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001845	JC002YEOG	1687	1692	Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001858	JC002YEOG	1698	1727	two other health professionals	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil and Daniel Olivares	per	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001871	JC002YEOG	1729	1745	Gustavo Villasmil	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001884	JC002YEOG	1748	1786	health minister of the state of Miranda	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	unspecified	unspecified	informative	nom
+JC002YCXK	EMJC002YCXK.001897	JC002YEOG	1930	1933	They	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro, Gustavo Villasmil, Manuel Olivares	per	unspecified	unspecified	informative	pro
+JC002YCXK	EMJC002YCXK.001923	JC002YEOG	2631	2639	Villasmil	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	unspecified	unspecified	informative	nam
+JC002YCXK	EMJC002YCXK.001970	JC002YEOG	176	181	Eleven	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	# of days after news broke about people killed by chikungunya in Maracay	val	number	number	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001983	JC002YEOG	1463	1466	nine	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	# of deaths in Maracay	val	number	number	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.001996	JC002YEOG	2168	2170	398	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	# of cases of chikungunya in Venezuela, according to official tallies	val	number	number	informative	EMPTY_NA
+JC002YCXK	EMJC002YCXK.002009	JC002YEOG	2197	2201	three	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	# of deaths caused by chikungunya in Venezuela according to official tallies	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000024	JC002YGFT	334	348	unknown disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000037	JC002YGFT	389	395	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000050	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000097	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000110	JC002YGFT	463	473	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000123	JC002YGFT	389	395	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000157	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000170	JC002YGFT	389	395	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000183	JC002YGFT	727	751	unknown hemorrhagic fever	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000230	JC002YGFT	1246	1256	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000243	JC002YGFT	1216	1228	the Caribbean	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	loc	position	region	base	nam
+JC002YFXO	EMJC002YFXO.000598	JC002YGFT	1378	1397	9537 confirmed cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000277	JC002YGFT	1575	1589	nine fatalities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000290	JC002YGFT	1554	1562	Maracay’s	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000303	JC002YGFT	1246	1256	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000431	JC002YGFT	511	525	Ángel Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	medicalpersonnel	base	nam
+JC002YFXO	EMJC002YFXO.000491	JC002YGFT	389	395	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000504	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000559	JC002YGFT	1171	1181	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000572	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000585	JC002YGFT	389	395	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000679	JC002YGFT	1799	1804	Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	minister	base	nam
+JC002YFXO	EMJC002YFXO.000713	JC002YGFT	2397	2405	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.000726	JC002YGFT	2470	2474	funds	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mon	unspecified	unspecified	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000773	JC002YGFT	2480	2487	medicine	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	com	equipment	medicalequipment	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000786	JC002YGFT	2500	2514	antifever drugs	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	com	equipment	medicalequipment	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000799	JC002YGFT	2397	2405	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.000833	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000846	JC002YGFT	463	473	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000859	JC002YGFT	2607	2613	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.000893	JC002YGFT	2802	2840	undisclosed location in Central America	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	loc	position	region	base	nam
+JC002YFXO	EMJC002YFXO.000906	JC002YGFT	2781	2789	Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	medicalpersonnel	base	nam
+JC002YFXO	EMJC002YFXO.000940	JC002YGFT	2843	2851	Villasmil	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	minister	base	nam
+JC002YFXO	EMJC002YFXO.000953	JC002YGFT	2857	2862	Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	minister	base	nam
+JC002YFXO	EMJC002YFXO.000987	JC002YGFT	3049	3074	hemorrhagic fever syndrome	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001000	JC002YGFT	3012	3024	Latin America	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	loc	position	region	base	nam
+JC002YFXO	EMJC002YFXO.001034	JC002YGFT	3049	3074	hemorrhagic fever syndrome	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001047	JC002YGFT	3095	3097	ten	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.001060	JC002YGFT	3079	3087	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.001094	JC002YGFT	3129	3154	hemorrhagic fever syndrome	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001107	JC002YGFT	3233	3242	ten people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.001120	JC002YGFT	3183	3188	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	provincestate	provincestate	base	nam
+JC002YFXO	EMJC002YFXO.001133	JC002YGFT	3216	3222	Caracas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.001167	JC002YGFT	3129	3154	hemorrhagic fever syndrome	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001180	JC002YGFT	3233	3242	ten people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.001193	JC002YGFT	3183	3188	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	provincestate	provincestate	base	nam
+JC002YFXO	EMJC002YFXO.001206	JC002YGFT	3216	3222	Caracas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	urbanarea	city	base	nam
+JC002YFXO	EMJC002YFXO.001287	JC002YGFT	3566	3571	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	provincestate	provincestate	base	nam
+JC002YFXO	EMJC002YFXO.001321	JC002YGFT	3808	3822	Angel Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	medicalpersonnel	base	nam
+JC002YFXO	EMJC002YFXO.001449	JC002YGFT	4788	4804	first eight cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.001462	JC002YGFT	5049	5053	fever	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001530	JC002YGFT	5828	5829	US	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.001564	JC002YGFT	5596	5619	the medical spokesperson	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	spokesperson	base	nom
+JC002YFXO	EMJC002YFXO.001611	JC002YGFT	5166	5176	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001624	JC002YGFT	5260	5266	Florida	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	provincestate	provincestate	base	nam
+JC002YFXO	EMJC002YFXO.001658	JC002YGFT	5853	5863	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001671	JC002YGFT	5828	5829	US	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.001705	JC002YGFT	4788	4804	first eight cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.001718	JC002YGFT	3079	3087	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	gpe	country	country	base	nam
+JC002YFXO	EMJC002YFXO.001731	JC002YGFT	4718	4728	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001838	JC002YGFT	1426	1432	vaccine	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	vaccine	com	equipment	medicalequipment	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001872	JC002YGFT	398	406	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001885	JC002YGFT	580	590	the country	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nom
+JC002YFXO	EMJC002YFXO.001898	JC002YGFT	1026	1034	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001911	JC002YGFT	2001	2009	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001924	JC002YGFT	2221	2231	Venezuela’s	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001937	JC002YGFT	2874	2882	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001950	JC002YGFT	3163	3172	Venezuelan	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001963	JC002YGFT	3194	3206	the country’s	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nom
+JC002YFXO	EMJC002YFXO.002049	JC002YGFT	5880	5890	the country	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	U.S.	gpe	country	country	informative	nom
+JC002YFXO	EMJC002YFXO.002062	JC002YGFT	6023	6024	US	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	U.S.	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.002075	JC002YGFT	5235	5236	US	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	U.S.	gpe	country	country	informative	nam
+JC002YFXO	EMJC002YFXO.001997	JC002YGFT	937	941	Sucre	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Sucre	gpe	provincestate	provincestate	informative	nam
+JC002YFXO	EMJC002YFXO.002010	JC002YGFT	1892	1898	Miranda	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Miranda	gpe	provincestate	provincestate	informative	nam
+JC002YFXO	EMJC002YFXO.002023	JC002YGFT	3646	3654	The state	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nom
+JC002YFXO	EMJC002YFXO.002036	JC002YGFT	3774	3779	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nam
+JC002YFXO	EMJC002YFXO.002109	JC002YGFT	377	395	the city of Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the city of Maracay	gpe	urbanarea	city	informative	nom
+JC002YFXO	EMJC002YFXO.002156	JC002YGFT	1276	1287	the Americas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the Americas	loc	position	region	informative	nam
+JC002YFXO	EMJC002YFXO.002169	JC002YGFT	1402	1411	the region	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the Americas	loc	position	region	informative	nom
+JC002YFXO	EMJC002YFXO.002182	JC002YGFT	2826	2840	Central America	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Central America	loc	position	region	informative	nam
+JC002YFXO	EMJC002YFXO.002229	JC002YGFT	811	821	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002242	JC002YGFT	1083	1108	an unknown or rare disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	an unknown or rare disease	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002255	JC002YGFT	1446	1456	the disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002268	JC002YGFT	1479	1490	dengue fever	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	dengue fever	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002281	JC002YGFT	1515	1516	It	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002294	JC002YGFT	2029	2039	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002307	JC002YGFT	2293	2303	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002320	JC002YGFT	2358	2364	malaria	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	malaria	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002333	JC002YGFT	2370	2375	dengue	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	dengue	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002346	JC002YGFT	2552	2562	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002359	JC002YGFT	3288	3292	Ebola	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ebola	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002372	JC002YGFT	3295	3307	this syndrome	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	hemorrhagic fever syndrome	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002385	JC002YGFT	3377	3378	It	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	hemorrhagic fever syndrome	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002398	JC002YGFT	3416	3422	disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	hemorrhagic fever syndrome	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002411	JC002YGFT	3724	3734	the disease	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	hemorrhagic fever syndrome	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002424	JC002YGFT	4772	4775	that	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002437	JC002YGFT	5248	5251	it's	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002450	JC002YGFT	5381	5391	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002463	JC002YGFT	5518	5528	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002476	JC002YGFT	5558	5559	it	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002489	JC002YGFT	5565	5589	one of the first diseases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002502	JC002YGFT	5646	5647	It	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002515	JC002YGFT	5764	5769	Dengue	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	dengue	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002528	JC002YGFT	5865	5866	it	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002541	JC002YGFT	6083	6086	THIS	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002554	JC002YGFT	6114	6118	EBOLA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	ebola	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002567	JC002YGFT	476	497	a mosquito-borne virus	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.002622	JC002YGFT	2221	2255	Venezuela’s federal health ministry	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela’s federal health ministry	org	government	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.002656	JC002YGFT	3656	3663	Governor	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Governor Tareck El Aissami	per	politician	governor	informative	nom
+JC002YFXO	EMJC002YFXO.002669	JC002YGFT	3863	3870	Governor	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Governor, Tareck El Aissami	per	politician	governor	informative	nom
+JC002YFXO	EMJC002YFXO.002682	JC002YGFT	3873	3888	Tarek Al-Aissami	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	informative	nam
+JC002YFXO	EMJC002YFXO.002716	JC002YGFT	409	415	doctors	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors in Venezuela	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002729	JC002YGFT	528	537	the doctor	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002755	JC002YGFT	1905	1919	Manuel Olivares	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Manuel Olivares	per	professionalposition	medicalpersonnel	informative	nam
+JC002YFXO	EMJC002YFXO.002768	JC002YGFT	2566	2576	Sarmiento’s	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YFXO	EMJC002YFXO.002781	JC002YGFT	3489	3495	Doctors	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors in Venezuela	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002794	JC002YGFT	3588	3591	they	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors in Venezuela	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002807	JC002YGFT	3753	3805	the president of the Aragua state Medical Association	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002820	JC002YGFT	4750	4764	epidemiologists	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	epidemiologists in Venezuela	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002945	JC002YGFT	1922	1947	a doctor at UCV’s hospital	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Manuel Olivares	per	professionalposition	medicalpersonnel	informative	nom
+JC002YFXO	EMJC002YFXO.002854	JC002YGFT	880	891	Julio Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	professionalposition	minister	informative	nam
+JC002YFXO	EMJC002YFXO.002867	JC002YGFT	894	941	the health minister of the municipality of Sucre	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	professionalposition	minister	informative	nam
+JC002YFXO	EMJC002YFXO.002880	JC002YGFT	1112	1113	he	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	professionalposition	medicalpersonnel	informative	pro
+JC002YFXO	EMJC002YFXO.002893	JC002YGFT	1149	1149	I	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	professionalposition	medicalpersonnel	informative	pro
+JC002YFXO	EMJC002YFXO.002906	JC002YGFT	1749	1754	Castro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Julio Castro	per	professionalposition	medicalpersonnel	informative	nam
+JC002YFXO	EMJC002YFXO.002919	JC002YGFT	1841	1857	Gustavo Villasmil	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	professionalposition	minister	informative	nam
+JC002YFXO	EMJC002YFXO.002932	JC002YGFT	1860	1898	health minister of the state of Miranda	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	professionalposition	minister	informative	nom
+JC002YFXO	EMJC002YFXO.002958	JC002YGFT	3890	3937	the Venezuelan Minister of Interior and Justice,	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tarek Al-Aissami	per	professionalposition	minister	informative	nom
+JC002YFXO	EMJC002YFXO.003208	JC002YGFT	2741	2749	Villasmil	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Gustavo Villasmil	per	professionalposition	minister	informative	nam
+JC002YFXO	EMJC002YFXO.003013	JC002YGFT	638	651	Nicolás Maduro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolás Maduro	per	unspecified	unspecified	informative	nam
+JC002YFXO	EMJC002YFXO.003026	JC002YGFT	662	670	officials	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelan officials	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003039	JC002YGFT	754	789	six of the eight original fatalities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	six of the original 8 people who died of chikungunya	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003052	JC002YGFT	1681	1686	people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	unknown number of people who are infected with chikungunya	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003065	JC002YGFT	3316	3323	patients	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya patients	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003078	JC002YGFT	3508	3529	government authorities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelan government authorities	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003091	JC002YGFT	3969	3976	Chavez's	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Hugo Chavez	per	unspecified	unspecified	informative	nam
+JC002YFXO	EMJC002YFXO.003104	JC002YGFT	4065	4094	members of Hamas and Hezbollah	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	members of Hamas and Hezbollah	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003117	JC002YGFT	4872	4878	victims	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 people who died of fever in Venezuela	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003130	JC002YGFT	5026	5029	they	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 people who died of fever in Venezuela	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003143	JC002YGFT	5057	5059	All	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 people who died of fever in Venezuela	per	unspecified	unspecified	informative	pro
+JC002YFXO	EMJC002YFXO.003156	JC002YGFT	5099	5101	all	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 people who died of fever in Venezuela	per	unspecified	unspecified	informative	pro
+JC002YFXO	EMJC002YFXO.003169	JC002YGFT	5310	5320	the doctors	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the doctors	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003182	JC002YGFT	5732	5745	these patients	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 people who died of fever in Venezuela	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003195	JC002YGFT	5919	5927	travelers	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	travelers who brought fever to US from Venezuela	per	unspecified	unspecified	informative	nom
+JC002YFXO	EMJC002YFXO.003242	JC002YGFT	297	307	Eleven days	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Eleven days after news broke about unknown disease in Venezuela	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003255	JC002YGFT	1356	1372	729,178 suspected	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	729,178 suspected cases of chikungunya in the Americas	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003268	JC002YGFT	1810	1839	two other health professionals	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	two other health professionals	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003281	JC002YGFT	1964	1996	between 65,000 and 117,000 people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	between 65,000 and 117,000 people in Venezuela infected with chikungunya	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003294	JC002YGFT	2280	2288	398 cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	398 cases of chikungunya recognized by Venezuelan government	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003307	JC002YGFT	2309	2320	three deaths	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	three deaths due to chikungunya recognized by the Venezuelan government	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003320	JC002YGFT	2322	2345	Many infectious diseases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	many infectious diseases on the rise in Venezuela	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003354	JC002YGFT	3252	3271	the last three weeks	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	three weeks in which 10 people in Caracas were killed by fever	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003367	JC002YGFT	3477	3484	72 hours	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	fever kills people within 72 hours	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003380	JC002YGFT	5115	5122	72 hours	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	first 8 fever victims died with 72 hours	val	number	number	informative	EMPTY_NA
+JC002YFXO	EMJC002YFXO.003393	JC002YGFT	6000	6014	600 known cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	600 known cases of chikungunya in US	val	number	number	informative	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000071	JC002YEMF	140	183	экспертов в области бактериологической войны	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	bacteriological warfare experts	per	professionalposition	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000084	JC002YEMF	133	138	страну	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nom
+JC002YC3Z	EMJC002YC3Z.000118	JC002YEMF	562	566	врачи	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors	per	professionalposition	medicalpersonnel	base	nom
+JC002YC3Z	EMJC002YC3Z.000131	JC002YEMF	604	616	братской Кубы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Cuba	gpe	country	country	base	nom
+JC002YC3Z	EMJC002YC3Z.000144	JC002YEMF	538	546	Венесуэлу	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YC3Z	EMJC002YC3Z.000178	JC002YEMF	748	758	правые силы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	right wing parties	org	politicalorganization	party	base	nom
+JC002YC3Z	EMJC002YC3Z.000191	JC002YEMF	799	833	центральную больницу города Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay central hospital	fac	building	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000230	JC002YEMF	782	795	какой-то вирус	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	a virus	wea	unspecified	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000358	JC002YEMF	261	280	фашистская оппозиция	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	opposition	sid	political	opposition	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000371	JC002YEMF	353	361	населения	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	people	per	unspecified	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000384	JC002YEMF	310	323	какой-то вирус	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	virus	wea	unspecified	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000486	JC002YEMF	1219	1253	центральной больнице города Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay central hospital	fac	building	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000499	JC002YEMF	1108	1144	неизвестного смертельного заболевания	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	disease	mhi	disease	disease	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000533	JC002YEMF	1172	1188	несколько человек	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	a few people	per	unspecified	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000559	JC002YEMF	1150	1157	которого	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	disease	mhi	disease	disease	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000640	JC002YEMF	1370	1383	восемь человек	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 people	per	unspecified	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000653	JC002YEMF	1325	1347	этом медицинском центре	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay central hospital	fac	building	unspecified	base	nom
+JC002YC3Z	EMJC002YC3Z.000734	JC002YEMF	1388	1394	которых	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 people	per	unspecified	unspecified	base	pro
+JC002YC3Z	EMJC002YC3Z.000747	JC002YEMF	1422	1440	высокая температура	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	high temperature	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000760	JC002YEMF	1443	1481	пятна на коже, превращающиеся в волдыри	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	spots on the skin that turned into blisters	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000773	JC002YEMF	1486	1509	внутренние кровоизлияния	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	internal hemorrhage	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000854	JC002YEMF	226	227	он	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	informative	pro
+JC002YC3Z	EMJC002YC3Z.000901	JC002YEMF	510	518	президент	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	informative	nom
+JC002YC3Z	EMJC002YC3Z.000914	JC002YEMF	524	526	его	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	informative	pro
+JC002YC3Z	EMJC002YC3Z.000995	JC002YEMF	717	722	Мадуро	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	informative	nam
+JC002YC3Z	EMJC002YC3Z.001008	JC002YEMF	878	879	Он	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	informative	pro
+JC002YC3Z	EMJC002YC3Z.000888	JC002YEMF	446	454	Венесуэлу	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YC3Z	EMJC002YC3Z.000948	JC002YEMF	658	669	штате Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nom
+JC002YC3Z	EMJC002YC3Z.000982	JC002YEMF	671	692	фашистские правые силы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	far right party	org	politicalorganization	party	informative	nom
+JC002YC3Z	EMJC002YC3Z.001042	JC002YEMF	1247	1253	Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	informative	nam
+JC002YC3Z	EMJC002YC3Z.001076	JC002YEMF	1257	1266	Губернатор	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	informative	nom
+JC002YC3Z	EMJC002YC3Z.001110	JC002YEMF	1352	1355	трое	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	three	val	number	number	informative	EMPTY_NA
+JC002YC48	EMJC002YC48.000024	JC002YEMH	19	34	вирус чикунгунья	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000037	JC002YEMH	1	9	Венесуэлу	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YC48	EMJC002YC48.000071	JC002YEMH	86	115	заболевания вирусом чикунгунья	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000084	JC002YEMH	41	49	Венесуэле	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YC48	EMJC002YC48.000165	JC002YEMH	265	281	поражения вирусом	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000178	JC002YEMH	227	237	государстве	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nom
+JC002YC48	EMJC002YC48.000494	JC002YEMH	530	545	вирус чикингунья	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000528	JC002YEMH	740	749	заболевшие	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	some infected people	per	unspecified	unspecified	base	nom
+JC002YC48	EMJC002YC48.000541	JC002YEMH	762	785	Доминиканской Республики	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Dominican Republic	gpe	country	country	base	nam
+JC002YC48	EMJC002YC48.000575	JC002YEMH	612	622	заболевание	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000588	JC002YEMH	642	688	других островных государств Карибского бассейна	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the Caribbean	loc	position	region	base	nom
+JC002YC48	EMJC002YC48.000787	JC002YEMH	352	357	страны	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	country	gpe	country	country	informative	nom
+JC002YC48	EMJC002YC48.000800	JC002YEMH	383	388	штатах	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	states	gpe	provincestate	provincestate	informative	nom
+JC002YC48	EMJC002YC48.000813	JC002YEMH	670	688	Карибского бассейна	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The Caribbean	loc	position	region	informative	nam
+JC002YC48	EMJC002YC48.000761	JC002YEMH	25	34	чикунгунья	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YC48	EMJC002YC48.000774	JC002YEMH	299	308	заболевших	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	infected people	per	unspecified	unspecified	informative	nom
+JC002YC48	EMJC002YC48.000748	JC002YEMH	74	76	200	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	two hundred	val	number	number	informative	EMPTY_NA
+JC002YC48	EMJC002YC48.000847	JC002YEMH	441	449	Венесуэлы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	informative	nam
+JC002YC48	EMJC002YC48.000881	JC002YEMH	740	749	заболевшие	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	diseased people	per	unspecified	unspecified	informative	nom
+JC002YC48	EMJC002YC48.000915	JC002YEMH	131	141	заболевания	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	disease	mhi	disease	disease	informative	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000024	JC002YEMI	204	212	9 человек	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	9 people	per	unspecified	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.000037	JC002YEMI	57	65	Венесуэлы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YC4N	EMJC002YC4N.000050	JC002YEMI	141	170	эпидемии вирусного заболевания	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	disease outbreak	mhi	disease	disease	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000131	JC002YEMI	119	123	врачу	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doctor	per	professionalposition	medicalpersonnel	base	nom
+JC002YC4N	EMJC002YC4N.000400	JC002YEMI	43	65	Правительство Венесуэлы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Government of Venezuela	org	government	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.000486	JC002YEMI	383	391	оппозиция	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	opposition	sid	political	opposition	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000580	JC002YEMI	526	530	врачи	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doctors	per	professionalposition	medicalpersonnel	base	nom
+JC002YC4N	EMJC002YC4N.000593	JC002YEMI	558	561	Кубы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Cuba	gpe	country	country	base	nam
+JC002YC4N	EMJC002YC4N.000606	JC002YEMI	507	512	страну	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nom
+JC002YC4N	EMJC002YC4N.000700	JC002YEMI	680	689	г. Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	base	nam
+JC002YC4N	EMJC002YC4N.000781	JC002YEMI	743	745	они	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	they	per	unspecified	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.000794	JC002YEMI	760	789	эпидемии вирусного заболевания	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	virus pandemic	mhi	disease	disease	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000854	JC002YEMI	820	825	страну	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nom
+JC002YC4N	EMJC002YC4N.001145	JC002YEMI	672	689	клинике г. Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Clinics in the town of Maracay	fac	building	unspecified	informative	nom
+JC002YC4N	EMJC002YC4N.001262	JC002YEMI	542	546	стран	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	countries	gpe	country	country	informative	nom
+JC002YC4N	EMJC002YC4N.001158	JC002YEMI	683	689	Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	informative	nam
+JC002YC4N	EMJC002YC4N.001171	JC002YEMI	150	170	вирусного заболевания	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	viral disease	mhi	disease	disease	informative	EMPTY_NA
+JC002YC4N	EMJC002YC4N.001197	JC002YEMI	43	55	Правительство	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	org	government	unspecified	informative	nom
+JC002YC4N	EMJC002YC4N.001184	JC002YEMI	564	572	Президент	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	politician	headofgovernment	informative	nom
+JC002YC4N	EMJC002YC4N.001210	JC002YEMI	235	240	врачей	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	doctors	per	professionalposition	medicalpersonnel	informative	nom
+JC002YC4N	EMJC002YC4N.001236	JC002YEMI	215	240	Президенту Коллегии врачей	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	President of Medical Association	ttl	unspecified	unspecified	informative	EMPTY_NA
+JC002YC4N	EMJC002YC4N.001377	JC002YEMI	414	445	Глава государства Николас Мадуро	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Head of the government Nicolas Maduro	per	politician	headofgovernment	informative	nam
+JC002YC4N	EMJC002YC4N.001364	JC002YEMI	420	430	государства	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	government	gpe	country	country	informative	nom
+JC002YC4N	EMJC002YC4N.001411	JC002YEMI	619	635	доктора Сармьенто	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doctor Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YC4N	EMJC002YC4N.001445	JC002YEMI	728	736	Сармьенто	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YC4N	EMJC002YC4N.001479	JC002YEMI	792	807	Анхель Сармьенто	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YC4N	EMJC002YC4N.001534	JC002YEMI	903	905	ему	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	pro
+JC002YC4N	EMJC002YC4N.001547	JC002YEMI	869	870	он	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	informative	pro
+JC002YF02	EMJC002YF02.000105	JC002YF53	2700	2711	венесуэльцев	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelans	per	unspecified	unspecified	base	nom
+JC002YF02	EMJC002YF02.000536	JC002YF53	2725	2735	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000139	JC002YF53	2802	2817	400 венесуэльцев	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelans	per	unspecified	unspecified	base	nom
+JC002YF02	EMJC002YF02.000549	JC002YF53	2833	2843	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000314	JC002YF53	4026	4047	8 граждан штата Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 citizen of Aragua	per	unspecified	unspecified	base	nom
+JC002YF02	EMJC002YF02.000327	JC002YF53	4059	4077	неизвестной болезни	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	unknown disease	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000408	JC002YF53	4551	4561	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000421	JC002YF53	4501	4512	штате Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	base	nom
+JC002YF02	EMJC002YF02.000455	JC002YF53	4271	4286	президент Мадуро	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	politician	headofgovernment	base	nom
+JC002YF02	EMJC002YF02.000489	JC002YF53	4846	4856	Chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000523	JC002YF53	4700	4708	Венесуэлы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YF02	EMJC002YF02.000782	JC002YF53	4036	4047	штата Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua State	gpe	provincestate	provincestate	informative	nam
+JC002YF02	EMJC002YF02.000769	JC002YF53	2635	2649	лихорадки денге	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	dengue fever	mhi	disease	disease	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000756	JC002YF53	4271	4279	президент	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	President	per	politician	headofgovernment	informative	nom
+JC002YF02	EMJC002YF02.000743	JC002YF53	2566	2572	министр	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	minister	per	professionalposition	minister	informative	nom
+JC002YF02	EMJC002YF02.000808	JC002YF53	4028	4034	граждан	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	citizens	per	unspecified	unspecified	informative	nom
+JC002YF02	EMJC002YF02.000795	JC002YF53	4109	4133	президент Коллегии Врачей	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	President of the College of Physicians	ttl	unspecified	unspecified	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000730	JC002YF53	2620	2633	45 745 случаев	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	45745 cases	val	number	number	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000842	JC002YF53	2924	2929	65 000	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000876	JC002YF53	2933	2939	117 000	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000910	JC002YF53	4026	4034	8 граждан	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 citizens	val	number	number	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.000944	JC002YF53	2645	2649	денге	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	dengue	mhi	disease	disease	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.001012	JC002YF53	4071	4077	болезни	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	disease	mhi	disease	disease	informative	EMPTY_NA
+JC002YF02	EMJC002YF02.001093	JC002YF53	2566	2600	министр здравоохранения Нэнси Перес	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nancy Pérez is a Health Minister	per	professionalposition	minister	informative	nam
+JC002YF02	EMJC002YF02.001127	JC002YF53	4378	4378	т	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maduro	per	politician	headofgovernment	informative	nam
+JC002YD6G	EMJC002YD6G.000087	JC002YD6I	212	218	Táchira	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Location of casualty	gpe	urbanarea	city	base	nam
+JC002YD6G	EMJC002YD6G.000100	JC002YD6I	262	267	fiebre	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Symptom, Fever	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YD6G	EMJC002YD6G.000113	JC002YD6I	276	285	erupciones	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Symptom, Eruptions	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YD6G	EMJC002YD6G.000408	JC002YD6I	174	177	niña	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Casualty	per	unspecified	unspecified	base	nom
+JC002YD6G	EMJC002YD6G.000202	JC002YD6I	492	501	8 personas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 casualties	per	unspecified	unspecified	base	nom
+JC002YD6G	EMJC002YD6G.000215	JC002YD6I	509	535	Hospital Central de Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Where casualties were	fac	installation	unspecified	base	nam
+JC002YD6G	EMJC002YD6G.000262	JC002YD6I	553	566	Nicolás Maduro	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maduro blames Medical Fed Prez.	per	politician	headofgovernment	base	nam
+JC002YD6G	EMJC002YD6G.000275	JC002YD6I	446	450	quien	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Medical Fed President is accused	per	unspecified	unspecified	base	nom
+JC002YD6G	EMJC002YD6G.000309	JC002YD6I	819	827	similares	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Other casulaties' Symptoms	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YD6G	EMJC002YD6G.000322	JC002YD6I	787	793	estados	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Disease spreads different states	gpe	unspecified	unspecified	base	nom
+JC002YD6G	EMJC002YD6G.000484	JC002YD6I	689	696	gobierno	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezualan Central Government	org	government	unspecified	base	nom
+JC002YD6G	EMJC002YD6G.000743	JC002YD6I	359	390	la residencia de Ángel Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Angel Sarmiento's House	fac	installation	unspecified	informative	nom
+JC002YD6G	EMJC002YD6G.000704	JC002YD6I	103	111	Venezuela	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	unspecified	unspecified	informative	nam
+JC002YD6G	EMJC002YD6G.000717	JC002YD6I	439	444	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	State of Aragua	gpe	unspecified	unspecified	informative	nam
+JC002YD6G	EMJC002YD6G.000790	JC002YD6I	620	629	venezolana	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	unspecified	unspecified	informative	nam
+JC002YD6G	EMJC002YD6G.000691	JC002YD6I	600	629	el sistema de salud venezolana	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelan Healthcare System	org	government	unspecified	informative	nom
+JC002YD6G	EMJC002YD6G.000678	JC002YD6I	755	762	personas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Victims from other states	per	unspecified	unspecified	informative	nom
+JC002YD6G	EMJC002YD6G.000777	JC002YD6I	529	535	Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	informative	nam
+JC002YDCM	EMJC002YDCM.000139	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	322,72,498,155	Patient in bed at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000152	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	267,7,542,254	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000199	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	248,113,502,219	Patient in Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000212	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	245,13,543,239	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000225	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	503,104,549,195	Patient in bed at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000259	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	334,46,544,245	Patient in bed at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000272	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	55,14,543,274	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000306	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	428,110,528,219	Sick Person on the floor at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000332	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	253,6,542,257	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000366	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	305,13,448,237	Sick person on wheelchair at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000379	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	264,8,544,258	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000413	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	248,115,545,248	Sick person in bed at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000426	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	232,5,545,267	Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000622	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_51	49,123,437,275	Sick patient in bed at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000635	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_51	444,144,549,237	Sick patient 2 in bed, at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000781	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_51	50,7,548,281	Sick patient 2 in bed at Hospital	fac	building	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000695	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_52	362,35,547,261	Sick patient on stretcher at Hospital	per	unspecified	unspecified	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000888	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_25	280,281,343,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000914	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	214,280,340,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000927	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	216,280,340,295	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000940	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	210,280,341,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.000953	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	217,281,337,296	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001562	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	215,282,340,296	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001575	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	213,280,336,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001588	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	216,281,340,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001601	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_34	215,282,337,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001614	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_35	215,282,338,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001627	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_36	217,281,337,296	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001640	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_37	214,281,337,296	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001653	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_38	216,277,339,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001666	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_37	127,113,244,138	Carabobo	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001679	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_38	122,112,242,141	Carabobo	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001692	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_38	425,210,511,235	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001705	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_39	125,114,244,146	Carabobo	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001718	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_39	425,214,528,241	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001731	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_39	217,283,337,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001744	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_40	120,113,237,143	Carabobo	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001757	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_40	213,281,337,296	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001770	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_40	434,216,509,240	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001783	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_41	218,282,338,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001796	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_42	212,281,339,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001809	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_43	212,282,338,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001822	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_44	214,278,339,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001835	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_45	212,279,336,297	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001848	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_46	214,282,338,299	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001861	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_47	215,282,338,302	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001874	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_48	214,279,342,299	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001887	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	213,280,340,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001900	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	215,281,339,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001913	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_51	220,284,338,300	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001926	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_52	216,282,339,294	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001939	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	216,282,336,295	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001952	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_53	213,279,334,298	Aragua	gpe	provincestate	provincestate	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001034	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_25	327,91,398,214	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001047	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_25	451,63,502,215	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001060	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	389,33,464,154	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001073	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	393,157,474,252	Little boy in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001086	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	339,95,395,216	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001099	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	273,139,416,257	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001112	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	274,59,316,151	Woman in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001125	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	303,68,405,260	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001138	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	435,70,560,174	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001151	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	267,98,298,204	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001164	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	250,34,361,251	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001177	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	455,177,533,237	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001216	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	271,13,440,233	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001229	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	448,8,520,162	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001242	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	418,30,462,68	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001255	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	389,19,420,55	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001268	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	518,37,551,168	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001281	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	416,213,474,274	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001294	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	347,240,390,275	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001307	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	393,242,416,263	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001320	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	266,218,314,275	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001333	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	261,218,307,273	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001346	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	351,244,388,272	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001359	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	392,242,416,265	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001372	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	416,211,470,277	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001385	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_52	171,83,313,283	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001398	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_52	49,70,177,267	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001411	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_53	54,70,168,263	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001424	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_53	170,86,294,276	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001437	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_53	357,32,556,224	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001450	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	51,58,160,246	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001463	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	178,81,315,271	Person in hospital	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001476	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	265,227,299,263	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001489	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	317,231,343,251	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001502	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	360,226,382,252	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001515	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	344,230,352,244	Person in scrubs	per	unspecified	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001965	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_25	78,209,258,244	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001978	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_25	82,249,292,265	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001991	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	78,210,252,247	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002004	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	84,209,246,247	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002017	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	80,207,244,246	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002030	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	82,211,245,249	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002043	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	84,212,242,244	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002056	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	84,211,249,250	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002069	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	78,211,249,242	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002082	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	84,208,244,246	María Eugenia Landaeta	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002095	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	82,246,290,265	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002108	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	79,248,296,268	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002121	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	81,249,291,266	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002134	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	79,247,296,267	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002147	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	81,248,294,264	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002160	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	81,248,291,265	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002173	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	80,248,293,270	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002186	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	79,246,290,265	Head of infectious disease service	per	professionalposition	medicalpersonnel	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001549	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	126,178,393,199	Maracay Central Hospital	fac	building	unspecified	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002220	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_27	83,282,335,298	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002233	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_28	81,281,336,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002246	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_29	82,280,340,295	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002259	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_30	80,283,341,295	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002272	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_31	83,283,341,301	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002285	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_32	85,284,335,297	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002298	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_33	85,282,340,297	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002311	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_34	85,283,336,300	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002324	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_35	83,281,336,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002337	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_36	84,283,339,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002350	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_37	86,283,337,298	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002363	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_38	82,282,335,297	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002376	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_39	81,282,336,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002389	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_40	160,42,484,252	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002402	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_40	83,282,338,300	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002415	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_41	164,34,476,251	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002428	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_41	82,281,336,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002441	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_42	262,251,392,290	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002454	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_42	80,284,340,298	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002467	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_43	85,281,336,300	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002480	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_44	84,279,338,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002493	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_45	149,186,514,277	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002506	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_45	85,279,337,296	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002519	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_46	167,46,510,278	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002532	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_46	80,280,339,296	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002545	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_47	132,51,507,282	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002558	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_47	82,283,337,296	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002571	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_48	85,279,339,297	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002584	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	83,281,341,301	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002597	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_49	112,146,197,163	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002610	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	80,281,339,302	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002623	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	111,146,200,164	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002636	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_50	110,62,197,143	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002649	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_51	81,282,336,297	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002662	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_52	81,279,336,295	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002675	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_53	87,284,339,299	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002688	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_54	84,283,338,302	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002701	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	124,120,214,137	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YDCM	EMJC002YDCM.002714	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_55	122,56,211,118	Tareck El Aissami	per	politician	governor	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000024	JC002YF4Y	56	73	enfermedad extraña	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Strange illness	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000058	JC002YF4Y	110	137	una niña de dos años de edad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A 2-year-old girl	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000071	JC002YF4Y	154	180	Síndrome febril hemorrágico	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Hemorrhagic fever syndrome	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000105	JC002YF4Y	216	231	víctimas fatales	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Victims of the illness	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000118	JC002YF4Y	236	241	Aragua	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	base	nam
+JC002YF1M	EMJC002YF1M.000131	JC002YF4Y	247	304	esta enfermedad de la cual aún médicos desconocen la causa	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	An illness of unknown cause	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000212	JC002YF4Y	425	434	la pequeña	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The little girl	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000225	JC002YF4Y	448	460	cuadro febril	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Fever	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000238	JC002YF4Y	463	487	enrojecimiento de la piel	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Reddening of the skin	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000251	JC002YF4Y	491	517	dolor en las articulaciones	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Joint pain	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000285	JC002YF4Y	639	640	su	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The girl	per	unspecified	unspecified	base	pro
+JC002YF1M	EMJC002YF1M.000298	JC002YF4Y	536	560	el ambulatorio de Turmero	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The Turmero clinic	fac	building	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000332	JC002YF4Y	563	567	donde	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The Turmero clinic	fac	building	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000379	JC002YF4Y	718	799	fiebre por encima de 40 grados que no cedía a pesar del suministro de medicamentos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Fever over 40 degrees that did not go away with medicine	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000426	JC002YF4Y	788	799	medicamentos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Medicine	com	equipment	medicalequipment	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000460	JC002YF4Y	836	846	chicungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000473	JC002YF4Y	865	889	los síntomas que presentó	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The symptoms she presented	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000507	JC002YF4Y	1625	1684	una mutación del chikungunya que produce hemorragias masivas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A mutation of chikungunya that causes massive hemorrhages	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000520	JC002YF4Y	1750	1761	dengue grave	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Serious kind of dengue	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000533	JC002YF4Y	1765	1775	meningococo	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Meningococcus	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000567	JC002YF4Y	1480	1499	la enfermedad febril	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Febrile illness	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000601	JC002YF4Y	1565	1577	la enfermedad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The illness	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000635	JC002YF4Y	2181	2184	esta	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A kind of chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000669	JC002YF4Y	2367	2407	pacientes que tuvieron patologías de base	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Patients with underlying pathologies	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000682	JC002YF4Y	2344	2356	cuadro febril	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Fever	mhi	symptompresentation	symptompresentation	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000729	JC002YF4Y	2390	2407	patologías de base	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Underlying pathologies	mhi	unspecified	unspecified	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000810	JC002YF4Y	2790	2802	ocho personas	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Eight people who died	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000823	JC002YF4Y	2816	2842	Síndrome febril hemorrágico	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Hemorrhagic fever syndrome	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000904	JC002YF4Y	2948	2959	otra persona	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Frank Gonzalo Fossi	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000917	JC002YF4Y	2967	2993	Hospital Central de Maracay	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay Central Hospital	fac	building	unspecified	base	nam
+JC002YF1M	EMJC002YF1M.000951	JC002YF4Y	3006	3024	Frank Gonzalo Fossi	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Frank Gonzalo Fossi	per	unspecified	unspecified	base	nam
+JC002YF1M	EMJC002YF1M.000985	JC002YF4Y	3146	3203	Todos los fallecidos denunciados por el Colegio de Médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	All of the people whose deaths were reported by the Colegio de Médicos	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.000998	JC002YF4Y	3274	3283	la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	base	nom
+JC002YF1M	EMJC002YF1M.001079	JC002YF4Y	3593	3626	los pacientes que señaló Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The patients whose deaths Sarmiento talked about	per	unspecified	unspecified	base	nom
+JC002YF1M	EMJC002YF1M.001092	JC002YF4Y	3645	3659	un factor común	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A common factor	mhi	unspecified	unspecified	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001105	JC002YF4Y	3663	3684	una extraña enfermedad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A strange illness	mhi	disease	disease	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001139	JC002YF4Y	377	399	la morgue de la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The morgue of Aragua	fac	building	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001173	JC002YF4Y	390	399	la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nom
+JC002YF1M	EMJC002YF1M.001186	JC002YF4Y	1434	1443	la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nom
+JC002YF1M	EMJC002YF1M.001199	JC002YF4Y	2677	2686	la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	informative	nom
+JC002YF1M	EMJC002YF1M.001233	JC002YF4Y	1642	1652	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001246	JC002YF4Y	2061	2091	un tipo de chikungunya agresivo	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	An aggressive kind of chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001259	JC002YF4Y	2072	2082	chikungunya	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Chikungunya	mhi	disease	disease	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001272	JC002YF4Y	2269	2276	el virus	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The virus	mhi	disease	disease	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001332	JC002YF4Y	2501	2521	la enfermedad de base	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Underlying illness	mhi	disease	disease	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001306	JC002YF4Y	2419	2477	proceso febril donde el paciente no tiene buena hidratación	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A feverish process where the patient doesn't have good hydration	mhi	symptompresentation	symptompresentation	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001319	JC002YF4Y	2434	2438	donde	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	A feverish process where the patient doesn't have good hydration	mhi	symptompresentation	symptompresentation	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001366	JC002YF4Y	1400	1443	diferentes gremios de la salud en la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Health professional associations in Aragua	org	association	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001379	JC002YF4Y	3186	3203	Colegio de Médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The Colegio de Médicos	org	association	unspecified	informative	nam
+JC002YF1M	EMJC002YF1M.001413	JC002YF4Y	1375	1381	médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doctors	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001426	JC002YF4Y	1836	1864	los profesionales de la salud	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Health professionals	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001439	JC002YF4Y	2211	2222	Héctor Celis	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Héctor Celis	per	professionalposition	medicalpersonnel	informative	nam
+JC002YF1M	EMJC002YF1M.001452	JC002YF4Y	2225	2238	médico del HCM	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Héctor Celis	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001512	JC002YF4Y	278	284	médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doctors	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001655	JC002YF4Y	1384	1396	epidemiólogos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Epidemiologists	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001668	JC002YF4Y	2120	2154	epidemiólogos que laboran en el HCM	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Epidemiologists at the Central Hospital of Maracay	per	professionalposition	medicalpersonnel	informative	nom
+JC002YF1M	EMJC002YF1M.001681	JC002YF4Y	2157	2163	quienes	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Epidemiologists at the Central Hospital of Maracay	per	professionalposition	medicalpersonnel	informative	pro
+JC002YF1M	EMJC002YF1M.001486	JC002YF4Y	21	37	Ministra de Salud	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The health minister	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001499	JC002YF4Y	325	348	familiares de la infante	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Relatives of the girl who died	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001525	JC002YF4Y	339	348	la infante	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The girl who died	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001538	JC002YF4Y	351	357	quienes	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Relatives of the girl who died	per	unspecified	unspecified	informative	pro
+JC002YF1M	EMJC002YF1M.001551	JC002YF4Y	359	360	se	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Relatives of the girl who died	per	unspecified	unspecified	informative	pro
+JC002YF1M	EMJC002YF1M.001564	JC002YF4Y	651	657	La niña	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The girl who died	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001577	JC002YF4Y	2854	2879	las autoridades sanitarias	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The heatlh authorities	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001590	JC002YF4Y	3075	3088	los familiares	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The relatives of Frank Gonzalo Fossi	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001603	JC002YF4Y	3090	3096	quienes	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The relatives of Frank Gonzalo Fossi	per	unspecified	unspecified	informative	pro
+JC002YF1M	EMJC002YF1M.001616	JC002YF4Y	3230	3283	autoridades gubernamentales y sanitarias en la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Government and health authorities in Aragua	per	unspecified	unspecified	informative	nom
+JC002YF1M	EMJC002YF1M.001629	JC002YF4Y	3422	3430	Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YF1M	EMJC002YF1M.001642	JC002YF4Y	3618	3626	Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Sarmiento	per	professionalposition	medicalpersonnel	informative	nam
+JC002YF1M	EMJC002YF1M.001715	JC002YF4Y	122	124	dos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Two	val	number	number	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001728	JC002YF4Y	591	591	7	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	7	val	number	number	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001741	JC002YF4Y	739	740	40	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	40	val	number	number	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001754	JC002YF4Y	3030	3031	44	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	44	val	number	number	informative	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001788	JC002YF4Y	3317	3329	el gobernador	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	informative	nom
+JC002YF1M	EMJC002YF1M.001801	JC002YF4Y	3464	3465	su	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	informative	pro
+JC002YCXK	EMJC002YCXK.000489	JC002YEOG	642	670	the eight original fatalities	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 people who died in Maracay	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.000502	JC002YEOG	646	650	eight	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 (# of people who died in Maracay)	val	number	number	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.000917	JC002YEOG	1852	1877	between 65,000 and 117,000	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	65,000 to 117,000	val	number	number	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.002043	JC002YEOG	1698	1727	two other health professionals	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YCXK	EMJC002YCXK.002056	JC002YEOG	1698	1700	two	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.002124	JC002YEOG	240	244	eight	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	8 (# of people who died of disease in Maracay)	val	number	number	base	EMPTY_NA
+JC002YCXK	EMJC002YCXK.002171	JC002YEOG	635	637	six	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Six (3 of people who died in Maracay from chikungunya)	val	number	number	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000350	JC002YGFT	511	525	Ángel Sarmiento	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	professionalposition	medicalpersonnel	base	nam
+JC002YFXO	EMJC002YFXO.000384	JC002YGFT	361	372	eight people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000397	JC002YGFT	361	365	eight	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.000632	JC002YGFT	1383	1397	confirmed cases	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.000645	JC002YGFT	1378	1381	9537	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001402	JC002YGFT	3233	3235	ten	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	val	number	number	base	EMPTY_NA
+JC002YFXO	EMJC002YFXO.001415	JC002YGFT	3233	3242	ten people	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_OPT	per	unspecified	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.003427	JC002YGFT	5269	5282	The government	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	The government	org	government	unspecified	base	nom
+JC002YFXO	EMJC002YFXO.003440	JC002YGFT	5353	5353	I	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Doc author	per	unspecified	unspecified	base	pro
+JC002YC3Z	EMJC002YC3Z.000024	JC002YEMF	88	96	Венесуэлы	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuela	gpe	country	country	base	nam
+JC002YC3Z	EMJC002YC3Z.000037	JC002YEMF	98	111	Николас Мадуро	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	base	nam
+JC002YC3Z	EMJC002YC3Z.000264	JC002YEMF	827	833	Маракай	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Maracay	gpe	urbanarea	city	base	nam
+JC002YC3Z	EMJC002YC3Z.000700	JC002YEMF	1370	1375	восемь	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	eight	val	number	number	base	EMPTY_NA
+JC002YC3Z	EMJC002YC3Z.000807	JC002YEMF	1051	1056	Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua state	gpe	provincestate	provincestate	base	nam
+JC002YC3Z	EMJC002YC3Z.000820	JC002YEMF	1058	1074	Тарек Эль Аиссами	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	base	nam
+JC002YC48	EMJC002YC48.000118	JC002YEMH	68	104	более 200 случаев заболевания вирусом	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	more than 200 cases of chikungunya	mhi	disease	disease	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000131	JC002YEMH	68	76	более 200	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	more than 200	val	number	number	base	EMPTY_NA
+JC002YC48	EMJC002YC48.000212	JC002YEMH	363	370	Каракасе	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Caracas	gpe	urbanarea	city	base	nam
+JC002YC48	EMJC002YC48.000225	JC002YEMH	284	308	Основная часть заболевших	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	most infected people	per	unspecified	unspecified	base	nom
+JC002YC48	EMJC002YC48.000259	JC002YEMH	390	396	Миранда	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Miranda	gpe	provincestate	provincestate	base	nam
+JC002YC48	EMJC002YC48.000306	JC002YEMH	399	404	Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	base	nam
+JC002YC48	EMJC002YC48.000353	JC002YEMH	408	413	Варгас	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Vargas	gpe	provincestate	provincestate	base	nam
+JC002YC48	EMJC002YC48.000400	JC002YEMH	322	332	центральной	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	central region of Venezuela	loc	position	region	base	nom
+JC002YC48	EMJC002YC48.000447	JC002YEMH	336	343	северной	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	northern part of the country	loc	position	region	base	nom
+JC002YC4N	EMJC002YC4N.000084	JC002YEMI	206	212	человек	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	people	per	unspecified	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.000097	JC002YEMI	204	204	9	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	nine	val	number	number	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000238	JC002YEMI	215	253	Президенту Коллегии врачей штата Арагуа	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	the President of Aragua Medical Association	ttl	unspecified	unspecified	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000251	JC002YEMI	255	270	Анхелю Сармьенто	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	base	nam
+JC002YC4N	EMJC002YC4N.000533	JC002YEMI	414	430	Глава государства	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Head of the government	ttl	unspecified	unspecified	base	EMPTY_NA
+JC002YC4N	EMJC002YC4N.000546	JC002YEMI	432	445	Николас Мадуро	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nicolas Maduro	per	politician	headofgovernment	base	nam
+JC002YC4N	EMJC002YC4N.000888	JC002YEMI	672	678	клинике	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	clinics	fac	building	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.001296	JC002YEMI	702	715	девять человек	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nine people	per	unspecified	unspecified	base	nom
+JC002YC4N	EMJC002YC4N.001309	JC002YEMI	702	707	девять	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nine	val	number	number	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000058	JC002YF53	2620	2649	45 745 случаев лихорадки денге	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	45,745 cases of dengue fever	mhi	disease	disease	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000071	JC002YF53	2620	2625	45 745	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	forty five thousand seven hundred forty five	val	number	number	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000186	JC002YF53	2802	2804	400	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	four hundred	val	number	number	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000220	JC002YF53	2918	2963	между 65 000 и 117 000 зараженных венесуэльцев	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Venezuelans	per	unspecified	unspecified	base	nom
+JC002YF02	EMJC002YF02.000233	JC002YF53	2918	2939	между 65 000 и 117 000	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	between 65,000 and  117,000	val	number	number	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000267	JC002YF53	2566	2588	министр здравоохранения	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Health Minister	ttl	unspecified	unspecified	base	EMPTY_NA
+JC002YF02	EMJC002YF02.000280	JC002YF53	2590	2600	Нэнси Перес	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Nancy Pérez	per	professionalposition	minister	base	nam
+JC002YF02	EMJC002YF02.000374	JC002YF53	4026	4026	8	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	eight	val	number	number	base	EMPTY_NA
+JC002YD6G	EMJC002YD6G.000369	JC002YD6I	410	419	Federación	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Medical Federation of the State of Aragua	org	unspecified	unspecified	base	nam
+JC002YD6G	EMJC002YD6G.000382	JC002YD6I	393	402	Presidente	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento President of Medical Federation of Aragua	per	unspecified	unspecified	base	nam
+JC002YDCM	EMJC002YDCM.000987	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	215,282,338,298	Aragua	gpe	provincestate	provincestate	base	EMPTY_NA
+JC002YDCM	EMJC002YDCM.001000	JC002YDCQ	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	JC002YDCQ_26	83,284,337,297	Tareck El Aissami	per	politician	governor	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000178	JC002YF4Y	198	201	diez	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ten	val	number	number	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.000763	JC002YF4Y	2707	2724	Colegio de Médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Colegio de Médicos	org	association	unspecified	base	nam
+JC002YF1M	EMJC002YF1M.000776	JC002YF4Y	2689	2724	el presidente del Colegio de Médicos	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Ángel Sarmiento	per	professionalposition	medicalpersonnel	base	nom
+JC002YF1M	EMJC002YF1M.000870	JC002YF4Y	2790	2793	ocho	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Eight	val	number	number	base	EMPTY_NA
+JC002YF1M	EMJC002YF1M.001032	JC002YF4Y	3533	3542	la entidad	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Aragua	gpe	provincestate	provincestate	base	nam
+JC002YF1M	EMJC002YF1M.001045	JC002YF4Y	3332	3348	Tareck El Aissami	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	EMPTY_NA	Tareck El Aissami	per	politician	governor	base	nam
