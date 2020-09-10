@@ -10,38 +10,14 @@ def get_span_emb(context_features, span_starts, span_ends):
     features = torch.cat(features, dim=0)
     return features
 
-def compute_place_conflict(e1, e2):
-    place1 = [arg for arg in e1['arguments'] if 'place' in arg['role'].lower()]
-    place2 = [arg for arg in e2['arguments'] if 'place' in arg['role'].lower()]
-    if len(place1) > 0 and len(place2) > 0:
-        if place1[0]['entity_id'] != place2[0]['entity_id']:
-            return 1
-    return 0
-
 def compute_coref_num(e1, e2):
     coref_num = 0
     args1 = sorted(e1['arguments'], key=lambda x: x['entity_id'])
     args2 = sorted(e2['arguments'], key=lambda x: x['entity_id'])
     for arg1, arg2 in zip(args1, args2):
-        if arg1['entity_id'] == arg2['entity_id'] \
-        and arg1['role'] != arg2['role']:
+        if arg1['entity_id'] == arg2['entity_id']:
             coref_num += 1
     return coref_num
-
-def compute_overlap_args(e1, e2):
-    overlap_args = 0
-    args1, args2 = e1['arguments'], e2['arguments']
-
-    used = set()
-    for arg1 in args1:
-        for i2, arg2 in enumerate(args2):
-            if i2 in used: continue
-            if arg1['role'] == arg2['role'] \
-            and arg1['entity_id'] == arg2['entity_id']:
-                overlap_args += 1
-                used.add(i2)
-                break
-    return overlap_args
 
 def logsumexp(inputs, dim=None, keepdim=False):
     """Numerically stable logsumexp.
