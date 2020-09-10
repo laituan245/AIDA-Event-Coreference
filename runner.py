@@ -73,19 +73,21 @@ def train(config_name):
                 # Update progress bar
                 progress.update(1)
                 progress.set_postfix_str('Average Train Loss: {}'.format(accumulated_loss()))
+
+            # Evaluation and Report
+            if iters % configs['report_frequency'] == 0:
+                print('Evaluation on the dev set', flush=True)
+                dev_score = aida_evaluate(model, dev_set, configs)['avg']
+
+                # Save model if it has better dev score
+                if dev_score > best_dev_score:
+                    best_dev_score = dev_score
+                    # Save the model
+                    save_path = os.path.join(configs['saved_path'], 'model.pt')
+                    torch.save({'model_state_dict': model.state_dict()}, save_path)
+                    print('Saved the model', flush=True)
+
         progress.close()
-
-        # Evaluation after each epoch
-        print('Evaluation on the dev set', flush=True)
-        dev_score = aida_evaluate(model, dev_set, configs)['avg']
-
-        # Save model if it has better dev score
-        if dev_score > best_dev_score:
-            best_dev_score = dev_score
-            # Save the model
-            save_path = os.path.join(configs['saved_path'], 'model.pt')
-            torch.save({'model_state_dict': model.state_dict()}, save_path)
-            print('Saved the model', flush=True)
 
 def evaluate(config_name, saved_path):
     # Prepare tokenizer, dataset, and model
