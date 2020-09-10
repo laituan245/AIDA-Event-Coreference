@@ -18,7 +18,7 @@ class Document:
                 for entity_mention in self.entity_mentions:
                     if entity_mention['id'] == argument['entity_id']:
                         _arguments.append({
-                            'text': argument['text'],
+                            #'text': argument['text'],
                             'role': argument['role'],
                             'entity': entity_mention,
                         })
