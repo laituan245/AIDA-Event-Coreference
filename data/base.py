@@ -21,6 +21,7 @@ class Document:
                             #'text': argument['text'],
                             'role': argument['role'],
                             'entity': entity_mention,
+                            'entity_id': argument['entity_id'],
                         })
             assert(len(_arguments) == len(e['arguments']))
             e['arguments'] = _arguments
