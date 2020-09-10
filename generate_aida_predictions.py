@@ -51,7 +51,9 @@ def generate_visualizations(sample_outputs, output_path='visualization.html'):
         data = json.load(json_file)
 
     with open(output_path, 'w+') as output_file:
-        for doc_id in data.keys():
+        doc_ids = list(data.keys())
+        doc_ids.sort()
+        for doc_id in doc_ids:
             doc = data[doc_id]
             doc_words = doc['words']
             clusters = doc['predicted_clusters']
