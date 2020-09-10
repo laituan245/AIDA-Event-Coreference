@@ -47,10 +47,6 @@
 :Event_00009	canonical_mention.actual	"attack"	IC001VBFN:937-942	1.0
 :Event_00009	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000388	IC001VBFN:958-961	0.9283955411957031
 :Event_00009	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000385	IC001VBFN:949-956	0.9961587698390826
-:Event_00010	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00010	mention.actual	"assassination"	IC001VBFN:67-79	1.0
-:Event_00010	canonical_mention.actual	"assassination"	IC001VBFN:67-79	1.0
-:Event_00010	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000615	IC001VBFN:113-126	0.9990553213860314
 :Event_00011	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00011	mention.actual	"broke"	IC001VBFN:448-452	1.0
 :Event_00011	canonical_mention.actual	"broke"	IC001VBFN:448-452	1.0
@@ -94,10 +90,6 @@
 :Event_00017	canonical_mention.actual	"whisked away"	IC001VBFN:410-421	1.0
 :Event_00017	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Passenger.actual	:Entity_EDL_0000233	IC001VBFN:403-404	0.6467747110052194
 :Event_00017	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Passenger.actual	:Entity_EDL_0000380	IC001VBFN:439-446	0.97220385840241
-:Event_00018	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle
-:Event_00018	mention.actual	"fight"	IC001VBFN:1481-1485	1.0
-:Event_00018	canonical_mention.actual	"fight"	IC001VBFN:1481-1485	1.0
-:Event_00018	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000392	IC001VBFN:1503-1508	0.5784321485027054
 :Event_00019	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack
 :Event_00019	mention.actual	"shot"	IC001VBFN:3223-3226	1.0
 :Event_00019	canonical_mention.actual	"shot"	IC001VBFN:3223-3226	1.0
@@ -139,10 +131,6 @@
 :Event_00027	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Meet_Place.actual	:Entity_EDL_0000103	JC002YGFT:4291-4294	0.9983117585703696
 :Event_00027	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Meet_Communicator.actual	:Entity_EDL_0000158	JC002YGFT:4300-4305	0.9968178563151957
 :Event_00027	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Meet_Communicator.actual	:Entity_EDL_0000158	JC002YGFT:4296-4298	0.6504887749387157
-:Event_00028	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
-:Event_00028	mention.actual	"death"	JC002YGFT:8059-8063	1.0
-:Event_00028	canonical_mention.actual	"death"	JC002YGFT:8059-8063	1.0
-:Event_00028	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die_Victim.actual	:Entity_EDL_0000266	JC002YGFT:7993-7995	0.44579083375282885
 :Event_00029	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00029	mention.actual	"fatalities"	JC002YGFT:780-789	1.0
 :Event_00029	canonical_mention.actual	"fatalities"	JC002YGFT:780-789	1.0
@@ -295,9 +283,6 @@
 :Event_00059	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00059	mention.actual	"fatalities"	JC002YGFT:1580-1589	1.0
 :Event_00059	canonical_mention.actual	"fatalities"	JC002YGFT:1580-1589	1.0
-:Event_00060	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
-:Event_00060	mention.actual	"lethal"	JC002YGFT:7866-7871	1.0
-:Event_00060	canonical_mention.actual	"lethal"	JC002YGFT:7866-7871	1.0
 :Event_00061	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00061	mention.actual	"dead"	JC002YGFT:10532-10535	1.0
 :Event_00061	canonical_mention.actual	"dead"	JC002YGFT:10532-10535	1.0
@@ -310,18 +295,12 @@
 :Event_00064	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00064	mention.actual	"fatal"	JC002YGFT:1521-1525	1.0
 :Event_00064	canonical_mention.actual	"fatal"	JC002YGFT:1521-1525	1.0
-:Event_00065	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
-:Event_00065	mention.actual	"death"	JC002YGFT:9407-9411	1.0
-:Event_00065	canonical_mention.actual	"death"	JC002YGFT:9407-9411	1.0
 :Event_00066	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.IllnessDegradationPhysical
 :Event_00066	mention.actual	"infection"	JC002YGFT:8938-8946	1.0
 :Event_00066	canonical_mention.actual	"infection"	JC002YGFT:8938-8946	1.0
 :Event_00067	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00067	mention.actual	"fatal"	JC002YGFT:3440-3444	1.0
 :Event_00067	canonical_mention.actual	"fatal"	JC002YGFT:3440-3444	1.0
-:Event_00069	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.IllnessDegradationPhysical
-:Event_00069	mention.actual	"infection"	JC002YGFT:7927-7935	1.0
-:Event_00069	canonical_mention.actual	"infection"	JC002YGFT:7927-7935	1.0
 :Event_00070	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.MediaStatement.Broadcast
 :Event_00070	mention.actual	"reports"	JC002YGFT:4737-4743	1.0
 :Event_00070	canonical_mention.actual	"reports"	JC002YGFT:4737-4743	1.0
@@ -353,11 +332,6 @@
 :Event_00075	canonical_mention.actual	"broke"	IC001VBJM:3228-3232	1.0
 :Event_00075	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Injurer.actual	:Entity_EDL_0000617	IC001VBJM:3176-3181	0.7387648909226902
 :Event_00075	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Injurer.actual	:Entity_EDL_0000617	IC001VBJM:3188-3189	0.9824488182220152
-:Event_00076	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00076	mention.actual	"overthrow"	IC001VBJM:4961-4969	1.0
-:Event_00076	canonical_mention.actual	"overthrow"	IC001VBJM:4961-4969	1.0
-:Event_00076	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000217	IC001VBJM:4885-4894	0.9107170352844012
-:Event_00076	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000617	IC001VBJM:4971-4976	0.7193752878106753
 :Event_00077	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00077	mention.actual	"attack"	IC001VBJM:2035-2040	1.0
 :Event_00077	canonical_mention.actual	"attack"	IC001VBJM:2035-2040	1.0
@@ -397,11 +371,6 @@
 :Event_00082	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Demonstrator.actual	:Entity_EDL_0000463	IC001VBJM:6192-6198	0.9954728698391972
 :Event_00082	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Place.actual	:Entity_EDL_0000314	IC001VBJM:6234-6240	0.9999806134773449
 :Event_00082	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Place.actual	:Entity_EDL_0000405	IC001VBJM:6275-6294	0.8048621939438108
-:Event_00083	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00083	mention.actual	"assassinate"	IC001VBJM:182-192	1.0
-:Event_00083	canonical_mention.actual	"assassinate"	IC001VBJM:182-192	1.0
-:Event_00083	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Instrument.actual	:Entity_EDL_0000612	IC001VBJM:156-161	0.9996379488711616
-:Event_00083	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000617	IC001VBJM:215-228	0.9606019629821485
 :Event_00084	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson
 :Event_00084	mention.actual	"escorted"	IC001VBJM:3250-3257	1.0
 :Event_00084	canonical_mention.actual	"escorted"	IC001VBJM:3250-3257	1.0
@@ -459,14 +428,6 @@
 :Event_00094	mention.actual	"battle"	IC001VBJM:6357-6362	1.0
 :Event_00094	canonical_mention.actual	"battle"	IC001VBJM:6357-6362	1.0
 :Event_00094	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Instrument.actual	:Entity_EDL_0000466	IC001VBJM:6353-6355	0.9995227405457736
-:Event_00095	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict
-:Event_00095	mention.actual	"charges"	IC001VBJM:1809-1815	1.0
-:Event_00095	canonical_mention.actual	"charges"	IC001VBJM:1809-1815	1.0
-:Event_00095	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict_Defendant.actual	:Entity_EDL_0000248	IC001VBJM:1785-1789	0.7213951614780109
-:Event_00095	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict_Defendant.actual	:Entity_EDL_0000235	IC001VBJM:1769-1770	0.9005626125940294
-:Event_00095	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict_Defendant.actual	:Entity_EDL_0000255	IC001VBJM:1817-1820	0.9755051588270879
-:Event_00095	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict_Defendant.actual	:Entity_EDL_0000422	IC001VBJM:1701-1707	0.8528242227393095
-:Event_00095	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.ChargeIndict_Defendant.actual	:Entity_EDL_0000205	IC001VBJM:1744-1757	0.6869959674171396
 :Event_00096	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00096	mention.actual	"attack"	IC001VBJM:37-42	1.0
 :Event_00096	canonical_mention.actual	"attack"	IC001VBJM:37-42	1.0
@@ -475,11 +436,6 @@
 :Event_00097	mention.actual	"arrested"	IC001VBJM:1691-1698	1.0
 :Event_00097	canonical_mention.actual	"arrested"	IC001VBJM:1691-1698	1.0
 :Event_00097	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain_Detainee.actual	:Entity_EDL_0000413	IC001VBJM:1685-1689	0.9968185430720842
-:Event_00098	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact
-:Event_00098	mention.actual	"fly"	IC001VBJM:4564-4566	1.0
-:Event_00098	canonical_mention.actual	"fly"	IC001VBJM:4564-4566	1.0
-:Event_00098	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact_Transporter.actual	:Entity_EDL_0000419	IC001VBJM:4550-4551	0.538701750745852
-:Event_00098	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact_Artifact.actual	:Entity_EDL_0000612	IC001VBJM:4572-4577	0.9977890340705118
 :Event_00099	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SetFire
 :Event_00099	mention.actual	"igniting"	IC001VBJM:2734-2741	1.0
 :Event_00099	canonical_mention.actual	"igniting"	IC001VBJM:2734-2741	1.0
@@ -492,16 +448,6 @@
 :Event_00100	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Instrument.actual	:Entity_EDL_0000603	IC001VBJM:2695-2699	0.9985375639023422
 :Event_00100	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Place.actual	:Entity_EDL_0000433	IC001VBJM:2756-2764	0.8269200895971174
 :Event_00100	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Place.actual	:Entity_EDL_0000469	IC001VBJM:2713-2718	0.9933002809227399
-:Event_00101	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00101	mention.actual	"kill"	IC001VBJM:3405-3408	1.0
-:Event_00101	canonical_mention.actual	"kill"	IC001VBJM:3405-3408	1.0
-:Event_00101	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000617	IC001VBJM:3415-3416	0.9828919126582734
-:Event_00101	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000473	IC001VBJM:3410-3411	0.551689311065866
-:Event_00102	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack
-:Event_00102	mention.actual	"shot"	IC001VBJM:4632-4635	1.0
-:Event_00102	canonical_mention.actual	"shot"	IC001VBJM:4632-4635	1.0
-:Event_00102	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Target.actual	:Entity_EDL_0000381	IC001VBJM:4623-4630	0.7415559564749225
-:Event_00102	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Target.actual	:Entity_EDL_0000381	IC001VBJM:4637-4640	0.9894496191942976
 :Event_00103	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
 :Event_00103	mention.actual	"detained"	IC001VBJM:100-107	1.0
 :Event_00103	canonical_mention.actual	"detained"	IC001VBJM:100-107	1.0
@@ -510,17 +456,6 @@
 :Event_00104	mention.actual	"attack"	IC001VBJM:300-305	1.0
 :Event_00104	canonical_mention.actual	"attack"	IC001VBJM:300-305	1.0
 :Event_00104	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000405	IC001VBJM:332-339	0.6360959276975592
-:Event_00105	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00105	mention.actual	"decapitate"	IC001VBJM:2180-2189	1.0
-:Event_00105	canonical_mention.actual	"decapitate"	IC001VBJM:2180-2189	1.0
-:Event_00105	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000319	IC001VBJM:2155-2163	0.5659802652672657
-:Event_00105	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000031	IC001VBJM:2191-2201	0.35731407553875216
-:Event_00105	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000617	IC001VBJM:2236-2241	0.8473229067677756
-:Event_00106	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson
-:Event_00106	mention.actual	"fleeing"	IC001VBJM:5832-5838	1.0
-:Event_00106	canonical_mention.actual	"fleeing"	IC001VBJM:5832-5838	1.0
-:Event_00106	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Transporter.actual	:Entity_EDL_0000344	IC001VBJM:5961-5975	0.9992699654657717
-:Event_00106	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Passenger.actual	:Entity_EDL_0000381	IC001VBJM:5823-5830	0.9999129304377203
 :Event_00107	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00107	mention.actual	"launched grenades"	IC001VBJM:6246-6262	1.0
 :Event_00107	canonical_mention.actual	"launched grenades"	IC001VBJM:6246-6262	1.0
@@ -538,11 +473,6 @@
 :Event_00109	mention.actual	"attackers"	IC001VBJM:2155-2163	1.0
 :Event_00109	canonical_mention.actual	"attackers"	IC001VBJM:2155-2163	1.0
 :Event_00109	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000319	IC001VBJM:2155-2163	0.9996046666979203
-:Event_00110	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00110	mention.actual	"loaded"	IC001VBJM:4579-4584	1.0
-:Event_00110	canonical_mention.actual	"loaded"	IC001VBJM:4579-4584	1.0
-:Event_00110	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Instrument.actual	:Entity_EDL_0000612	IC001VBJM:4572-4577	0.8113866951604953
-:Event_00110	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Instrument.actual	:Entity_EDL_0000395	IC001VBJM:4591-4600	0.9677832845354198
 :Event_00111	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00111	mention.actual	"attack"	IC001VBJM:6124-6129	1.0
 :Event_00111	canonical_mention.actual	"attack"	IC001VBJM:6124-6129	1.0
@@ -570,21 +500,12 @@
 :Event_00116	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
 :Event_00116	mention.actual	"explosion"	IC001VBJM:2884-2892	1.0
 :Event_00116	canonical_mention.actual	"explosion"	IC001VBJM:2884-2892	1.0
-:Event_00117	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00117	mention.actual	"attack"	IC001VBJM:4389-4394	1.0
-:Event_00117	canonical_mention.actual	"attack"	IC001VBJM:4389-4394	1.0
 :Event_00118	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect
 :Event_00118	mention.actual	"won"	IC001VBJM:5292-5294	1.0
 :Event_00118	canonical_mention.actual	"won"	IC001VBJM:5292-5294	1.0
 :Event_00119	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00119	mention.actual	"election"	IC001VBJM:5339-5346	1.0
 :Event_00119	canonical_mention.actual	"election"	IC001VBJM:5339-5346	1.0
-:Event_00120	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
-:Event_00120	mention.actual	"arrests"	IC001VBJM:1671-1677	1.0
-:Event_00120	canonical_mention.actual	"arrests"	IC001VBJM:1671-1677	1.0
-:Event_00121	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00121	mention.actual	"attack"	IC001VBJM:4950-4955	1.0
-:Event_00121	canonical_mention.actual	"attack"	IC001VBJM:4950-4955	1.0
 :Event_00122	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
 :Event_00122	mention.actual	"exploded"	IC001VBJM:3093-3100	1.0
 :Event_00122	canonical_mention.actual	"exploded"	IC001VBJM:3093-3100	1.0
@@ -666,20 +587,12 @@
 :Event_00138	mention.actual	"fled"	JC002YEOG:454-457	1.0
 :Event_00138	canonical_mention.actual	"fled"	JC002YEOG:454-457	1.0
 :Event_00138	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Destination.actual	:Entity_EDL_0000136	JC002YEOG:463-469	0.9506485370073994
-:Event_00139	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00139	mention.actual	"terrorism"	JC002YEOG:51-59	1.0
-:Event_00139	canonical_mention.actual	"terrorism"	JC002YEOG:51-59	1.0
-:Event_00139	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000033	JC002YEOG:4-12	0.9994396156699544
-:Event_00139	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000564	JC002YEOG:15-20	0.997064931946518
 :Event_00140	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00140	mention.actual	"deadly"	JC002YEOG:1594-1599	1.0
 :Event_00140	canonical_mention.actual	"deadly"	JC002YEOG:1594-1599	1.0
 :Event_00141	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00141	mention.actual	"deaths"	JC002YEOG:2203-2208	1.0
 :Event_00141	canonical_mention.actual	"deaths"	JC002YEOG:2203-2208	1.0
-:Event_00142	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
-:Event_00142	mention.actual	"fatal"	JC002YEOG:1407-1411	1.0
-:Event_00142	canonical_mention.actual	"fatal"	JC002YEOG:1407-1411	1.0
 :Event_00143	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00143	mention.actual	"deaths"	JC002YEOG:442-447	1.0
 :Event_00143	canonical_mention.actual	"deaths"	JC002YEOG:442-447	1.0
@@ -711,10 +624,6 @@
 :Event_00149	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000247	IC001VBI8:2196-2200	0.519741661875072
 :Event_00149	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000482	IC001VBI8:2155-2160	0.99982697893691
 :Event_00149	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000204	IC001VBI8:2171-2183	0.796857858465164
-:Event_00150	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.TrialHearing
-:Event_00150	mention.actual	"prosecution"	IC001VBI8:1152-1162	1.0
-:Event_00150	canonical_mention.actual	"prosecution"	IC001VBI8:1152-1162	1.0
-:Event_00150	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.InitiateJudicialProcess.TrialHearing_Defendant.actual	:Entity_EDL_0000169	IC001VBI8:1189-1192	0.8583841483862279
 :Event_00151	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
 :Event_00151	mention.actual	"detained"	IC001VBI8:1752-1759	1.0
 :Event_00151	canonical_mention.actual	"detained"	IC001VBI8:1752-1759	1.0
@@ -746,10 +655,6 @@
 :Event_00156	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Instrument.actual	:Entity_EDL_0000611	IC001VBI8:529-534	0.9880114882010466
 :Event_00156	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000616	IC001VBI8:489-494	0.80098436051398
 :Event_00156	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000482	IC001VBI8:469-474	0.7324958640973784
-:Event_00157	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00157	mention.actual	"assassinate"	IC001VBI8:382-392	1.0
-:Event_00157	canonical_mention.actual	"assassinate"	IC001VBI8:382-392	1.0
-:Event_00157	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000438	IC001VBI8:394-396	0.7638896364147655
 :Event_00158	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.MediaStatement.Broadcast
 :Event_00158	mention.actual	"announced"	IC001VBI8:1717-1725	1.0
 :Event_00158	canonical_mention.actual	"announced"	IC001VBI8:1717-1725	1.0
@@ -766,15 +671,9 @@
 :Event_00160	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact.SmuggleExtract_Artifact.actual	:Entity_EDL_0000602	IC001VBI8:1854-1861	0.9970045761058675
 :Event_00160	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact.SmuggleExtract_Artifact.actual	:Entity_EDL_0000602	IC001VBI8:1848-1852	0.855676681536988
 :Event_00160	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportArtifact.SmuggleExtract_Artifact.actual	:Entity_EDL_0000394	IC001VBI8:1901-1909	0.8412597784733112
-:Event_00161	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Transaction.TransferMoney.GiftGrantProvideAid
-:Event_00161	mention.actual	"grants"	IC001VBI8:1121-1126	1.0
-:Event_00161	canonical_mention.actual	"grants"	IC001VBI8:1121-1126	1.0
 :Event_00162	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00162	mention.actual	"attack"	IC001VBI8:1420-1425	1.0
 :Event_00162	canonical_mention.actual	"attack"	IC001VBI8:1420-1425	1.0
-:Event_00163	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00163	mention.actual	"Assassination"	IC001VBI8:61-73	1.0
-:Event_00163	canonical_mention.actual	"Assassination"	IC001VBI8:61-73	1.0
 :Event_00164	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure
 :Event_00164	mention.actual	"unhurt"	IC001VBI8:262-267	1.0
 :Event_00164	canonical_mention.actual	"unhurt"	IC001VBI8:262-267	1.0
@@ -783,23 +682,11 @@
 :Event_00165	canonical_mention.actual	"shot"	KC003ADPC:5669-5672	1.0
 :Event_00165	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Place.actual	:Entity_EDL_0000362	KC003ADPC:5649-5654	0.647462566838065
 :Event_00165	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack_Target.actual	:Entity_EDL_0000328	KC003ADPC:5677-5689	0.8016582291706777
-:Event_00166	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.EndPosition.FiringLayoff
-:Event_00166	mention.actual	"dismissal"	KC003ADPC:3158-3166	1.0
-:Event_00166	canonical_mention.actual	"dismissal"	KC003ADPC:3158-3166	1.0
-:Event_00166	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.EndPosition.FiringLayoff_Employee.actual	:Entity_EDL_0000258	KC003ADPC:3126-3129	0.6222699561831642
-:Event_00167	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00167	mention.actual	"slap"	KC003ADPC:4757-4760	1.0
-:Event_00167	canonical_mention.actual	"slap"	KC003ADPC:4757-4760	1.0
-:Event_00167	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000620	KC003ADPC:4762-4767	0.8686420693182412
 :Event_00168	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
 :Event_00168	mention.actual	"Assassination"	KC003ADPC:5987-5999	1.0
 :Event_00168	canonical_mention.actual	"Assassination"	KC003ADPC:5987-5999	1.0
 :Event_00168	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Place.actual	:Entity_EDL_0000092	KC003ADPC:6035-6037	0.9916252590610968
 :Event_00168	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000551	KC003ADPC:6011-6025	0.7874235513094936
-:Event_00169	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Transaction.TransferOwnership.Purchase
-:Event_00169	mention.actual	"purchasing"	KC003ADPC:4401-4410	1.0
-:Event_00169	canonical_mention.actual	"purchasing"	KC003ADPC:4401-4410	1.0
-:Event_00169	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Transaction.TransferOwnership.Purchase_Recipient.actual	:Entity_EDL_0000251	KC003ADPC:4395-4399	0.4807619294101354
 :Event_00170	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
 :Event_00170	mention.actual	"killed"	KC003ADPC:5776-5781	1.0
 :Event_00170	canonical_mention.actual	"killed"	KC003ADPC:5776-5781	1.0
@@ -807,18 +694,6 @@
 :Event_00170	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Place.actual	:Entity_EDL_0000081	KC003ADPC:5823-5829	0.7505192911007004
 :Event_00170	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000339	KC003ADPC:5734-5742	0.7661059703419257
 :Event_00170	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Place.actual	:Entity_EDL_0000081	KC003ADPC:5814-5818	0.88558223795579
-:Event_00171	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle
-:Event_00171	mention.actual	"combat"	KC003ADPC:302-307	1.0
-:Event_00171	canonical_mention.actual	"combat"	KC003ADPC:302-307	1.0
-:Event_00171	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000620	KC003ADPC:255-268	0.9902054209845125
-:Event_00171	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000620	KC003ADPC:245-253	0.9721251978640768
-:Event_00171	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000290	KC003ADPC:153-158	0.8845075791138629
-:Event_00171	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000293	KC003ADPC:333-338	0.7388022017648345
-:Event_00171	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Place.actual	:Entity_EDL_0000035	KC003ADPC:130-138	0.9999945177435949
-:Event_00172	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00172	mention.actual	"win"	KC003ADPC:6674-6676	1.0
-:Event_00172	canonical_mention.actual	"win"	KC003ADPC:6674-6676	1.0
-:Event_00172	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Candidate.actual	:Entity_EDL_0000284	KC003ADPC:6649-6652	0.6129127497860162
 :Event_00173	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Manufacture.Artifact.Build
 :Event_00173	mention.actual	"erected"	KC003ADPC:387-393	1.0
 :Event_00173	canonical_mention.actual	"erected"	KC003ADPC:387-393	1.0
@@ -828,11 +703,6 @@
 :Event_00174	mention.actual	"calls"	KC003ADPC:3225-3229	1.0
 :Event_00174	canonical_mention.actual	"calls"	KC003ADPC:3225-3229	1.0
 :Event_00174	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.RequestAdvise.Correspondence_Communicator.actual	:Entity_EDL_0000261	KC003ADPC:3238-3241	0.9980374239879491
-:Event_00175	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00175	mention.actual	"deaths"	KC003ADPC:6343-6348	1.0
-:Event_00175	canonical_mention.actual	"deaths"	KC003ADPC:6343-6348	1.0
-:Event_00175	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000208	KC003ADPC:6369-6382	0.9928952857260862
-:Event_00175	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Place.actual	:Entity_EDL_0000363	KC003ADPC:6354-6363	0.9330139202439818
 :Event_00176	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering
 :Event_00176	mention.actual	"protests"	KC003ADPC:5656-5663	1.0
 :Event_00176	canonical_mention.actual	"protests"	KC003ADPC:5656-5663	1.0
@@ -908,10 +778,6 @@
 :Event_00188	mention.actual	"blasted"	KC003ADPC:3188-3194	1.0
 :Event_00188	canonical_mention.actual	"blasted"	KC003ADPC:3188-3194	1.0
 :Event_00188	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Target.actual	:Entity_EDL_0000261	KC003ADPC:3238-3241	0.9982089085318059
-:Event_00189	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate
-:Event_00189	mention.actual	"unrest"	KC003ADPC:6310-6315	1.0
-:Event_00189	canonical_mention.actual	"unrest"	KC003ADPC:6310-6315	1.0
-:Event_00189	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate_Demonstrator.actual	:Entity_EDL_0000258	KC003ADPC:6286-6289	0.9231715635521727
 :Event_00190	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents
 :Event_00190	mention.actual	"wounded"	KC003ADPC:1756-1762	1.0
 :Event_00190	canonical_mention.actual	"wounded"	KC003ADPC:1756-1762	1.0
@@ -919,19 +785,10 @@
 :Event_00190	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Place.actual	:Entity_EDL_0000315	KC003ADPC:1744-1750	0.9999616581686424
 :Event_00190	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Victim.actual	:Entity_EDL_0000316	KC003ADPC:1777-1784	0.9903548802922982
 :Event_00190	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents_Injurer.actual	:Entity_EDL_0000359	KC003ADPC:1770-1775	0.7950187784068647
-:Event_00191	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering
-:Event_00191	mention.actual	"protests"	KC003ADPC:2064-2071	1.0
-:Event_00191	canonical_mention.actual	"protests"	KC003ADPC:2064-2071	1.0
-:Event_00191	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Demonstrator.actual	:Entity_EDL_0000220	KC003ADPC:2135-2144	0.9619377613981012
 :Event_00192	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence
 :Event_00192	mention.actual	"messages"	KC003ADPC:3206-3213	1.0
 :Event_00192	canonical_mention.actual	"messages"	KC003ADPC:3206-3213	1.0
 :Event_00192	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence_Communicator.actual	:Entity_EDL_0000261	KC003ADPC:3238-3241	0.9966487743377231
-:Event_00193	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence
-:Event_00193	mention.actual	"email"	KC003ADPC:3695-3699	1.0
-:Event_00193	canonical_mention.actual	"email"	KC003ADPC:3695-3699	1.0
-:Event_00193	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence_Communicator.actual	:Entity_EDL_0000374	KC003ADPC:3654-3657	0.9917304352516452
-:Event_00193	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence_Communicator.actual	:Entity_EDL_0000267	KC003ADPC:3716-3718	0.9909731276300197
 :Event_00194	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Injure.InjuryCausedByViolentEvents
 :Event_00194	mention.actual	"wounded"	KC003ADPC:5419-5425	1.0
 :Event_00194	canonical_mention.actual	"wounded"	KC003ADPC:5419-5425	1.0
@@ -948,64 +805,31 @@
 :Event_00196	canonical_mention.actual	"elected"	KC003ADPC:2463-2469	1.0
 :Event_00196	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Candidate.actual	:Entity_EDL_0000301	KC003ADPC:2447-2452	0.9839122697760531
 :Event_00196	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Candidate.actual	:Entity_EDL_0000297	KC003ADPC:2430-2435	0.9990076463083235
-:Event_00197	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00197	mention.actual	"elections"	KC003ADPC:5118-5126	1.0
-:Event_00197	canonical_mention.actual	"elections"	KC003ADPC:5118-5126	1.0
-:Event_00197	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Candidate.actual	:Entity_EDL_0000208	KC003ADPC:5152-5164	0.7779310404869803
-:Event_00197	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Voter.actual	:Entity_EDL_0000007	KC003ADPC:5189-5196	0.9231360391912259
 :Event_00198	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00198	mention.actual	"bomb exploded"	KC003ADPC:1723-1735	1.0
 :Event_00198	canonical_mention.actual	"bomb exploded"	KC003ADPC:1723-1735	1.0
 :Event_00198	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Instrument.actual	:Entity_EDL_0000313	KC003ADPC:1723-1726	0.9957322577654113
 :Event_00198	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000315	KC003ADPC:1744-1750	0.9999551070935726
 :Event_00198	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000316	KC003ADPC:1777-1784	0.9892254834102435
-:Event_00200	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00200	mention.actual	"elections"	KC003ADPC:1940-1948	1.0
-:Event_00200	canonical_mention.actual	"elections"	KC003ADPC:1940-1948	1.0
-:Event_00200	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Candidate.actual	:Entity_EDL_0000020	KC003ADPC:1993-2002	0.5909350046288534
 :Event_00201	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate
 :Event_00201	mention.actual	"barricades"	KC003ADPC:395-404	1.0
 :Event_00201	canonical_mention.actual	"barricades"	KC003ADPC:395-404	1.0
 :Event_00201	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate_Place.actual	:Entity_EDL_0000305	KC003ADPC:409-413	0.5337913155874127
-:Event_00202	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Transaction.TransferMoney.Purchase
-:Event_00202	mention.actual	"sales"	KC003ADPC:1479-1483	1.0
-:Event_00202	canonical_mention.actual	"sales"	KC003ADPC:1479-1483	1.0
 :Event_00203	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00203	mention.actual	"Election"	KC003ADPC:58-65	1.0
 :Event_00203	canonical_mention.actual	"Election"	KC003ADPC:58-65	1.0
 :Event_00204	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00204	mention.actual	"confrontations"	KC003ADPC:621-634	1.0
 :Event_00204	canonical_mention.actual	"confrontations"	KC003ADPC:621-634	1.0
-:Event_00205	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering
-:Event_00205	mention.actual	"Protests"	KC003ADPC:1-8	1.0
-:Event_00205	canonical_mention.actual	"Protests"	KC003ADPC:1-8	1.0
 :Event_00206	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00206	mention.actual	"election"	KC003ADPC:1419-1426	1.0
 :Event_00206	canonical_mention.actual	"election"	KC003ADPC:1419-1426	1.0
-:Event_00207	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00207	mention.actual	"Killing"	KC003ADPC:1279-1285	1.0
-:Event_00207	canonical_mention.actual	"Killing"	KC003ADPC:1279-1285	1.0
-:Event_00208	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00208	mention.actual	"elections"	KC003ADPC:5009-5017	1.0
-:Event_00208	canonical_mention.actual	"elections"	KC003ADPC:5009-5017	1.0
-:Event_00209	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence
-:Event_00209	mention.actual	"email"	KC003ADPC:3407-3411	1.0
-:Event_00209	canonical_mention.actual	"email"	KC003ADPC:3407-3411	1.0
-:Event_00210	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle
-:Event_00210	mention.actual	"combat"	KC003ADPC:2853-2858	1.0
-:Event_00210	canonical_mention.actual	"combat"	KC003ADPC:2853-2858	1.0
 :Event_00211	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering
 :Event_00211	mention.actual	"protests"	KC003ADPC:695-702	1.0
 :Event_00211	canonical_mention.actual	"protests"	KC003ADPC:695-702	1.0
 :Event_00212	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00212	mention.actual	"deadliest"	KC003ADPC:666-674	1.0
 :Event_00212	canonical_mention.actual	"deadliest"	KC003ADPC:666-674	1.0
-:Event_00213	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00213	mention.actual	"Hit"	KC003ADPC:1247-1249	1.0
-:Event_00213	canonical_mention.actual	"Hit"	KC003ADPC:1247-1249	1.0
-:Event_00214	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommitmentPromiseExpressIntent.Correspondence
-:Event_00214	mention.actual	"email"	KC003ADPC:3558-3562	1.0
-:Event_00214	canonical_mention.actual	"email"	KC003ADPC:3558-3562	1.0
 :Event_00215	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
 :Event_00215	mention.actual	"Bomb"	KC003ADPC:5200-5203	1.0
 :Event_00215	canonical_mention.actual	"Bomb"	KC003ADPC:5200-5203	1.0
@@ -1042,10 +866,6 @@
 :Event_00222	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000329	KC003ADT2:3214-3226	0.7616661008284665
 :Event_00222	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Target.actual	:Entity_EDL_0000149	KC003ADT2:3161-3166	0.6681697046951414
 :Event_00222	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000360	KC003ADT2:3199-3208	0.9355185384522144
-:Event_00223	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00223	mention.actual	"vote"	KC003ADT2:3738-3741	1.0
-:Event_00223	canonical_mention.actual	"vote"	KC003ADT2:3738-3741	1.0
-:Event_00223	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection_Voter.actual	:Entity_EDL_0000221	KC003ADT2:3683-3692	0.9992090171699531
 :Event_00224	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.MediaStatement.Broadcast
 :Event_00224	mention.actual	"announced"	KC003ADT2:639-647	1.0
 :Event_00224	canonical_mention.actual	"announced"	KC003ADT2:639-647	1.0
@@ -1078,13 +898,6 @@
 :Event_00229	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000052	KC003ADT2:2706-2712	0.9999053774290936
 :Event_00229	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000360	KC003ADT2:2739-2744	0.9167036097690147
 :Event_00229	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000317	KC003ADT2:2746-2753	0.9996895858683532
-:Event_00230	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson
-:Event_00230	mention.actual	"entering"	KC003ADT2:3911-3918	1.0
-:Event_00230	canonical_mention.actual	"entering"	KC003ADT2:3911-3918	1.0
-:Event_00230	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Transporter.actual	:Entity_EDL_0000571	KC003ADT2:3886-3903	0.8964733911551982
-:Event_00230	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Transporter.actual	:Entity_EDL_0000507	KC003ADT2:3867-3873	0.891682295787614
-:Event_00230	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Transporter.actual	:Entity_EDL_0000291	KC003ADT2:3950-3955	0.5923593627493641
-:Event_00230	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Destination.actual	:Entity_EDL_0000348	KC003ADT2:3920-3935	0.9999643367481755
 :Event_00231	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00231	mention.actual	"election"	KC003ADT2:152-159	1.0
 :Event_00231	canonical_mention.actual	"election"	KC003ADT2:152-159	1.0
@@ -1145,10 +958,6 @@
 :Event_00240	mention.actual	"protesters"	KC003ADT2:3091-3100	1.0
 :Event_00240	canonical_mention.actual	"protesters"	KC003ADT2:3091-3100	1.0
 :Event_00240	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Demonstrator.actual	:Entity_EDL_0000517	KC003ADT2:3091-3100	0.9912018413960101
-:Event_00241	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.JudicialConsequences.Convict
-:Event_00241	mention.actual	"sentences"	KC003ADT2:3808-3816	1.0
-:Event_00241	canonical_mention.actual	"sentences"	KC003ADT2:3808-3816	1.0
-:Event_00241	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.JudicialConsequences.Convict_Defendant.actual	:Entity_EDL_0000415	KC003ADT2:3822-3826	0.9924752591224908
 :Event_00242	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00242	mention.actual	"coup"	KC003ADT2:786-789	1.0
 :Event_00242	canonical_mention.actual	"coup"	KC003ADT2:786-789	1.0
@@ -1163,16 +972,6 @@
 :Event_00244	mention.actual	"unrest"	KC003ADT2:362-367	1.0
 :Event_00244	canonical_mention.actual	"unrest"	KC003ADT2:362-367	1.0
 :Event_00244	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate_Place.actual	:Entity_EDL_0000060	KC003ADT2:114-121	0.893818062459921
-:Event_00245	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle
-:Event_00245	mention.actual	"conflict"	KC003ADT2:3668-3675	1.0
-:Event_00245	canonical_mention.actual	"conflict"	KC003ADT2:3668-3675	1.0
-:Event_00245	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Place.actual	:Entity_EDL_0000139	KC003ADT2:3646-3652	0.981590357608267
-:Event_00246	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00246	mention.actual	"bullets"	KC003ADT2:3064-3070	1.0
-:Event_00246	canonical_mention.actual	"bullets"	KC003ADT2:3064-3070	1.0
-:Event_00246	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Instrument.actual	:Entity_EDL_0000503	KC003ADT2:3048-3054	0.9804477666563017
-:Event_00246	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000346	KC003ADT2:3021-3035	0.5563594110644501
-:Event_00246	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000517	KC003ADT2:3091-3100	0.8527390393458537
 :Event_00247	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
 :Event_00247	mention.actual	"explosion"	KC003ADT2:2634-2642	1.0
 :Event_00247	canonical_mention.actual	"explosion"	KC003ADT2:2634-2642	1.0
@@ -1185,9 +984,6 @@
 :Event_00250	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.FirearmAttack
 :Event_00250	mention.actual	"shot"	KC003ADT2:2591-2594	1.0
 :Event_00250	canonical_mention.actual	"shot"	KC003ADT2:2591-2594	1.0
-:Event_00251	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00251	mention.actual	"Violence"	KC003ADT2:26-33	1.0
-:Event_00251	canonical_mention.actual	"Violence"	KC003ADT2:26-33	1.0
 :Event_00252	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00252	mention.actual	"voting"	KC003ADT2:4567-4572	1.0
 :Event_00252	canonical_mention.actual	"voting"	KC003ADT2:4567-4572	1.0
@@ -1197,9 +993,6 @@
 :Event_00254	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
 :Event_00254	mention.actual	"election"	KC003ADT2:5889-5896	1.0
 :Event_00254	canonical_mention.actual	"election"	KC003ADT2:5889-5896	1.0
-:Event_00255	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.Elect.WinElection
-:Event_00255	mention.actual	"Election"	KC003ADT2:4928-4935	1.0
-:Event_00255	canonical_mention.actual	"Election"	KC003ADT2:4928-4935	1.0
 :Event_00256	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die
 :Event_00256	mention.actual	"dead"	KC003ADT2:2600-2603	1.0
 :Event_00256	canonical_mention.actual	"dead"	KC003ADT2:2600-2603	1.0
@@ -1262,12 +1055,6 @@
 :Event_00270	mention.actual	"attack"	IC001VGWW:1950-1955	1.0
 :Event_00270	canonical_mention.actual	"attack"	IC001VGWW:1950-1955	1.0
 :Event_00270	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000153	IC001VGWW:1899-1905	0.5525667461942972
-:Event_00271	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00271	mention.actual	"assassination"	IC001VGWW:144-156	1.0
-:Event_00271	canonical_mention.actual	"assassination"	IC001VGWW:144-156	1.0
-:Event_00271	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Place.actual	:Entity_EDL_0000032	IC001VGWW:212-218	0.9952258888625796
-:Event_00271	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000618	IC001VGWW:179-192	0.9990553213860314
-:Event_00271	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Killer.actual	:Entity_EDL_0000618	IC001VGWW:92-97	0.4408608242091434
 :Event_00272	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
 :Event_00272	mention.actual	"arrest"	IC001VGWW:668-673	1.0
 :Event_00272	canonical_mention.actual	"arrest"	IC001VGWW:668-673	1.0
@@ -1281,10 +1068,6 @@
 :Event_00274	mention.actual	"parade"	IC001VGWW:1696-1701	1.0
 :Event_00274	canonical_mention.actual	"parade"	IC001VGWW:1696-1701	1.0
 :Event_00274	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering_Demonstrator.actual	:Entity_EDL_0000387	IC001VGWW:1687-1694	0.992173415964951
-:Event_00275	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
-:Event_00275	mention.actual	"arrests"	IC001VGWW:901-907	1.0
-:Event_00275	canonical_mention.actual	"arrests"	IC001VGWW:901-907	1.0
-:Event_00275	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain_Jailer.actual	:Entity_EDL_0000423	IC001VGWW:873-874	0.5910010442801722
 :Event_00276	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00276	mention.actual	"attack"	IC001VGWW:2505-2510	1.0
 :Event_00276	canonical_mention.actual	"attack"	IC001VGWW:2505-2510	1.0
@@ -1292,16 +1075,6 @@
 :Event_00276	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000075	IC001VGWW:2575-2579	0.5926980643226741
 :Event_00276	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000090	IC001VGWW:2550-2566	0.8345682086980821
 :Event_00276	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000414	IC001VGWW:2479-2483	0.6169443529530544
-:Event_00277	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
-:Event_00277	mention.actual	"detonated"	IC001VGWW:1280-1288	1.0
-:Event_00277	canonical_mention.actual	"detonated"	IC001VGWW:1280-1288	1.0
-:Event_00277	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Place.actual	:Entity_EDL_0000184	IC001VGWW:1399-1402	0.9681557680336025
-:Event_00277	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Instrument.actual	:Entity_EDL_0000613	IC001VGWW:1212-1217	0.9585534543952644
-:Event_00277	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Attacker.actual	:Entity_EDL_0000320	IC001VGWW:1297-1305	0.997541814215351
-:Event_00278	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle
-:Event_00278	mention.actual	"fight"	IC001VGWW:2655-2659	1.0
-:Event_00278	canonical_mention.actual	"fight"	IC001VGWW:2655-2659	1.0
-:Event_00278	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.SelfDirectedBattle_Attacker.actual	:Entity_EDL_0000311	IC001VGWW:2626-2639	0.7353940669455514
 :Event_00279	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
 :Event_00279	mention.actual	"arrested"	IC001VGWW:109-116	1.0
 :Event_00279	canonical_mention.actual	"arrested"	IC001VGWW:109-116	1.0
@@ -1313,10 +1086,6 @@
 :Event_00280	mention.actual	"attack"	IC001VGWW:723-728	1.0
 :Event_00280	canonical_mention.actual	"attack"	IC001VGWW:723-728	1.0
 :Event_00280	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000270	IC001VGWW:687-689	0.8678581650983794
-:Event_00281	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00281	mention.actual	"assassination"	IC001VGWW:553-565	1.0
-:Event_00281	canonical_mention.actual	"assassination"	IC001VGWW:553-565	1.0
-:Event_00281	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents_Victim.actual	:Entity_EDL_0000425	IC001VGWW:587-600	0.8929955953601362
 :Event_00282	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Demonstrate.MarchProtestPoliticalGathering
 :Event_00282	mention.actual	"protests"	IC001VGWW:850-857	1.0
 :Event_00282	canonical_mention.actual	"protests"	IC001VGWW:850-857	1.0
@@ -1329,24 +1098,11 @@
 :Event_00283	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Vehicle.actual	:Entity_EDL_0000604	IC001VGWW:1453-1457	0.9998763310091516
 :Event_00283	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Origin.actual	:Entity_EDL_0000406	IC001VGWW:1499-1506	0.7647701771523162
 :Event_00283	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Movement.TransportPerson_Destination.actual	:Entity_EDL_0000406	IC001VGWW:1509-1513	0.5145935968267195
-:Event_00284	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing
-:Event_00284	mention.actual	"explosive"	IC001VGWW:982-990	1.0
-:Event_00284	canonical_mention.actual	"explosive"	IC001VGWW:982-990	1.0
-:Event_00284	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Instrument.actual	:Entity_EDL_0000396	IC001VGWW:982-990	0.997041255604873
-:Event_00284	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Target.actual	:Entity_EDL_0000613	IC001VGWW:951-954	0.9435221533933005
-:Event_00284	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack.Bombing_Instrument.actual	:Entity_EDL_0000613	IC001VGWW:939-944	0.9695418259383629
 :Event_00285	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00285	mention.actual	"attackers"	IC001VGWW:1297-1305	1.0
 :Event_00285	canonical_mention.actual	"attackers"	IC001VGWW:1297-1305	1.0
 :Event_00285	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000184	IC001VGWW:1399-1402	0.9032670076669871
 :Event_00285	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000320	IC001VGWW:1297-1305	0.9996046666979203
-:Event_00286	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
-:Event_00286	mention.actual	"attacks"	IC001VGWW:2690-2696	1.0
-:Event_00286	canonical_mention.actual	"attacks"	IC001VGWW:2690-2696	1.0
-:Event_00286	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000311	IC001VGWW:2626-2639	0.9954759148771388
-:Event_00286	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Target.actual	:Entity_EDL_0000307	IC001VGWW:2710-2718	0.9068438465383902
-:Event_00286	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Place.actual	:Entity_EDL_0000429	IC001VGWW:2727-2735	0.8677933362003621
-:Event_00286	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack_Attacker.actual	:Entity_EDL_0000429	IC001VGWW:2723-2725	0.9935155588677111
 :Event_00287	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00287	mention.actual	"attackers"	IC001VGWW:1408-1416	1.0
 :Event_00287	canonical_mention.actual	"attackers"	IC001VGWW:1408-1416	1.0
@@ -1358,12 +1114,6 @@
 :Event_00289	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Justice.ArrestJailDetain.ArrestJailDetain
 :Event_00289	mention.actual	"arrested"	IC001VGWW:514-521	1.0
 :Event_00289	canonical_mention.actual	"arrested"	IC001VGWW:514-521	1.0
-:Event_00290	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Personnel.StartPosition
-:Event_00290	mention.actual	"takes over"	IC001VGWW:2929-2938	1.0
-:Event_00290	canonical_mention.actual	"takes over"	IC001VGWW:2929-2938	1.0
-:Event_00291	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Life.Die.DeathCausedByViolentEvents
-:Event_00291	mention.actual	"Assassination"	IC001VGWW:25-37	1.0
-:Event_00291	canonical_mention.actual	"Assassination"	IC001VGWW:25-37	1.0
 :Event_00292	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Conflict.Attack
 :Event_00292	mention.actual	"incident"	IC001VGWW:1552-1559	1.0
 :Event_00292	canonical_mention.actual	"incident"	IC001VGWW:1552-1559	1.0
@@ -1372,9 +1122,6 @@
 :Event_new_type_0000000	canonical_mention.actual	"urged"	JC002YGFT:3502-3506	0.5
 :Event_new_type_0000000	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder_Recipient.actual	:Entity_EDL_0000219	JC002YGFT:3508-3517	0.5
 :Event_new_type_0000000	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder_Recipient.actual	:Entity_EDL_0000223	JC002YGFT:3519-3529	0.5
-:Event_new_type_0000001	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Formation.StartGPE
-:Event_new_type_0000001	mention.actual	"creating"	JC002YGFT:3829-3836	0.5
-:Event_new_type_0000001	canonical_mention.actual	"creating"	JC002YGFT:3829-3836	0.5
 :Event_new_type_0000002	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence
 :Event_new_type_0000002	mention.actual	"called"	JC002YGFT:4378-4383	0.5
 :Event_new_type_0000002	canonical_mention.actual	"called"	JC002YGFT:4378-4383	0.5
@@ -1382,9 +1129,6 @@
 :Event_new_type_0000003	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Formation.StartGPE
 :Event_new_type_0000003	mention.actual	"created"	JC002YGFT:6819-6825	0.5
 :Event_new_type_0000003	canonical_mention.actual	"created"	JC002YGFT:6819-6825	0.5
-:Event_new_type_0000007	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Formation.StartGPE
-:Event_new_type_0000007	mention.actual	"create"	JC002YGFT:8866-8871	0.5
-:Event_new_type_0000007	canonical_mention.actual	"create"	JC002YGFT:8866-8871	0.5
 :Event_new_type_0000009	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence
 :Event_new_type_0000009	mention.actual	"called"	IC001VBJM:3737-3742	0.5
 :Event_new_type_0000009	canonical_mention.actual	"called"	IC001VBJM:3737-3742	0.5
@@ -1397,17 +1141,6 @@
 :Event_new_type_0000011	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence_Recipient.actual	:Entity_EDL_0000310	IC001VBFN:1462-1475	0.5
 :Event_new_type_0000011	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence_Recipient.actual	:Entity_EDL_0000592	IC001VBFN:1456-1460	0.5
 :Event_new_type_0000011	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence_Communicator.actual	:Entity_EDL_0000615	IC001VBFN:1435-1440	0.5
-:Event_new_type_0000012	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder
-:Event_new_type_0000012	mention.actual	"demand"	IC001VBFN:2073-2078	0.5
-:Event_new_type_0000012	canonical_mention.actual	"demand"	IC001VBFN:2073-2078	0.5
-:Event_new_type_0000012	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder_Communicator.actual	:Entity_EDL_0000229	IC001VBFN:2070-2071	0.5
-:Event_new_type_0000013	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Formation.StartGPE
-:Event_new_type_0000013	mention.actual	"created"	KC003ADPC:2584-2590	0.5
-:Event_new_type_0000013	canonical_mention.actual	"created"	KC003ADPC:2584-2590	0.5
-:Event_new_type_0000014	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence
-:Event_new_type_0000014	mention.actual	"asking"	KC003ADPC:3231-3236	0.5
-:Event_new_type_0000014	canonical_mention.actual	"asking"	KC003ADPC:3231-3236	0.5
-:Event_new_type_0000014	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder.Correspondence_Recipient.actual	:Entity_EDL_0000261	KC003ADPC:3238-3241	0.5
 :Event_new_type_0000017	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Formation.StartGPE
 :Event_new_type_0000017	mention.actual	"founded"	KC003ADPC:6171-6177	0.5
 :Event_new_type_0000017	canonical_mention.actual	"founded"	KC003ADPC:6171-6177	0.5
@@ -1420,18 +1153,9 @@
 :Event_new_type_0000022	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Contact.CommandOrder
 :Event_new_type_0000022	mention.actual	"asking"	KC003ADT2:6345-6350	0.5
 :Event_new_type_0000022	canonical_mention.actual	"asking"	KC003ADT2:6345-6350	0.5
-:Event_new_type_plus_0000001	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.ViolationsPreventVote
-:Event_new_type_plus_0000001	mention.actual	"Voters"	KC003ADPC:25-30	1.0
-:Event_new_type_plus_0000001	canonical_mention.actual	"Voters"	KC003ADPC:25-30	1.0
 :Event_new_type_plus_0000003	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.ViolationsPreventVote
 :Event_new_type_plus_0000003	mention.actual	"vote"	KC003ADPC:1715-1718	1.0
 :Event_new_type_plus_0000003	canonical_mention.actual	"vote"	KC003ADPC:1715-1718	1.0
-:Event_new_type_plus_0000005	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.ViolationsPreventVote
-:Event_new_type_plus_0000005	mention.actual	"voted"	KC003ADPC:2015-2019	1.0
-:Event_new_type_plus_0000005	canonical_mention.actual	"voted"	KC003ADPC:2015-2019	1.0
-:Event_new_type_plus_0000007	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.ViolationsPreventVote
-:Event_new_type_plus_0000007	mention.actual	"vote"	KC003ADPC:2722-2725	1.0
-:Event_new_type_plus_0000007	canonical_mention.actual	"vote"	KC003ADPC:2722-2725	1.0
 :Event_new_type_plus_0000009	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.ViolationsPreventVote
 :Event_new_type_plus_0000009	mention.actual	"voted"	KC003ADPC:2755-2759	1.0
 :Event_new_type_plus_0000009	canonical_mention.actual	"voted"	KC003ADPC:2755-2759	1.0
@@ -1460,9 +1184,6 @@
 :Event_new_type_plus_0000023	mention.actual	"voted"	KC003ADPC:4985-4989	1.0
 :Event_new_type_plus_0000023	canonical_mention.actual	"voted"	KC003ADPC:4985-4989	1.0
 :Event_new_type_plus_0000023	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote_Voter.actual	:Entity_EDL_0000290	KC003ADPC:4925-4930	1.0
-:Event_new_type_plus_0000025	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
-:Event_new_type_plus_0000025	mention.actual	"referendum"	KC003ADPC:5069-5078	1.0
-:Event_new_type_plus_0000025	canonical_mention.actual	"referendum"	KC003ADPC:5069-5078	1.0
 :Event_new_type_plus_0000027	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000027	mention.actual	"voting"	KC003ADPC:6420-6425	1.0
 :Event_new_type_plus_0000027	canonical_mention.actual	"voting"	KC003ADPC:6420-6425	1.0
@@ -1470,9 +1191,6 @@
 :Event_new_type_plus_0000029	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Disaster.AccidentCrash.AccidentCrash
 :Event_new_type_plus_0000029	mention.actual	"crashing"	IC001VBI8:2045-2052	1.0
 :Event_new_type_plus_0000029	canonical_mention.actual	"crashing"	IC001VBI8:2045-2052	1.0
-:Event_new_type_plus_0000031	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
-:Event_new_type_plus_0000031	mention.actual	"Vote"	KC003ADT2:11-14	1.0
-:Event_new_type_plus_0000031	canonical_mention.actual	"Vote"	KC003ADT2:11-14	1.0
 :Event_new_type_plus_0000033	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote
 :Event_new_type_plus_0000033	mention.actual	"voters"	KC003ADT2:223-228	1.0
 :Event_new_type_plus_0000033	canonical_mention.actual	"voters"	KC003ADT2:223-228	1.0
@@ -1485,9 +1203,6 @@
 :Event_new_type_plus_0000039	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000039	mention.actual	"vote"	KC003ADT2:1203-1206	1.0
 :Event_new_type_plus_0000039	canonical_mention.actual	"vote"	KC003ADT2:1203-1206	1.0
-:Event_new_type_plus_0000041	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
-:Event_new_type_plus_0000041	mention.actual	"election"	KC003ADT2:1834-1841	1.0
-:Event_new_type_plus_0000041	canonical_mention.actual	"election"	KC003ADT2:1834-1841	1.0
 :Event_new_type_plus_0000043	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000043	mention.actual	"vote"	KC003ADT2:2479-2482	1.0
 :Event_new_type_plus_0000043	canonical_mention.actual	"vote"	KC003ADT2:2479-2482	1.0
@@ -1505,12 +1220,6 @@
 :Event_new_type_plus_0000051	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000051	mention.actual	"votes"	KC003ADT2:4833-4837	1.0
 :Event_new_type_plus_0000051	canonical_mention.actual	"votes"	KC003ADT2:4833-4837	1.0
-:Event_new_type_plus_0000053	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
-:Event_new_type_plus_0000053	mention.actual	"ballots"	KC003ADT2:4999-5005	1.0
-:Event_new_type_plus_0000053	canonical_mention.actual	"ballots"	KC003ADT2:4999-5005	1.0
-:Event_new_type_plus_0000055	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote
-:Event_new_type_plus_0000055	mention.actual	"voters"	KC003ADT2:5063-5068	1.0
-:Event_new_type_plus_0000055	canonical_mention.actual	"voters"	KC003ADT2:5063-5068	1.0
 :Event_new_type_plus_0000057	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000057	mention.actual	"poll"	KC003ADT2:5236-5239	1.0
 :Event_new_type_plus_0000057	canonical_mention.actual	"poll"	KC003ADT2:5236-5239	1.0
@@ -1523,7 +1232,3 @@
 :Event_new_type_plus_0000063	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote.CastVote
 :Event_new_type_plus_0000063	mention.actual	"vote"	KC003ADT2:5564-5567	1.0
 :Event_new_type_plus_0000063	canonical_mention.actual	"vote"	KC003ADT2:5564-5567	1.0
-:Event_new_type_plus_0000065	type	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote
-:Event_new_type_plus_0000065	mention.actual	"voters"	KC003ADT2:5986-5991	1.0
-:Event_new_type_plus_0000065	canonical_mention.actual	"voters"	KC003ADT2:5986-5991	1.0
-:Event_new_type_plus_0000065	https://tac.nist.gov/tracks/SM-KBP/2019/ontologies/LDCOntology#Government.Vote_Place.actual	:Entity_EDL_0000052	KC003ADT2:5996-6002	1.0
