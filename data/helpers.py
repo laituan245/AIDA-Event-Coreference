@@ -90,9 +90,14 @@ def load_oneie_dataset(
 
 
 # AIDA
+def str_to_location(location_str):
+    doc_id, text_loc = location_str.split(':')
+    text_start, text_end = text_loc.split('-')
+    return doc_id, int(text_start), int(text_end)
+
 def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
     # Load CS file
-    event2info = {}
+    event2info, entity2info = {}, {}
     with open(cs_filepath, 'r', encoding='utf8') as f:
         for line in f:
             line = line.strip()
@@ -101,16 +106,23 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
             event_id = es[0][1:]
             if not event_id in event2info: event2info[event_id] = {}
             if es[1] == 'mention.actual':
-                text, location, confidence = es[2:]
-                doc_id, text_loc = location.split(':')
-                text_start, text_end = text_loc.split('-')
+                text, location_str, confidence = es[2:]
+                doc_id, text_start, text_end = str_to_location(location_str)
                 event2info[event_id]['actual_text'] = text[1:-1]
                 event2info[event_id]['doc_id'] = doc_id
                 event2info[event_id]['text_start'] = int(text_start)
                 event2info[event_id]['text_end'] = int(text_end)
-            if es[1] == 'type':
+            elif es[1] == 'type':
                 event2info[event_id]['type'] = es[2]
-
+            elif es[1] != 'canonical_mention.actual':
+                argument_role, entity_id, entity_loc_str, confidence = es[1:]
+                entity_doc_id, entity_start, entity_end = str_to_location(entity_loc_str)
+                assert(doc_id == entity_doc_id) # Sanity check
+                if not entity_id in entity2info:
+                    entity2info[entity_id] = {
+                        'doc_id': doc_id, 'id': entity_id,
+                        'start': entity_start, 'end': entity_end
+                    }
 
     # Determine aida_doc_ids
     aida_doc_ids = []
@@ -129,6 +141,15 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
             start2word[tokens[i][0]] = i
             end2word[tokens[i][1]] = i
 
+        # Fix entity mentions start/end
+        entity_mentions
+        for entity in entity2info.values():
+            if entity['doc_id'] == doc_id:
+                entity['start'] = start2word[entity['start']]
+                entity['end'] = end2word[entity['end']] + 1
+                entity['text'] = ' '.join([t[-1] for t in tokens[entity['start']:entity['end']]])
+                entity_mentions.append(entity)
+
         # Extract event mentions
         event_mentions = []
         for eid in event2info:
@@ -142,7 +163,7 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
         event_mentions.sort(key=lambda x: x['trigger']['start'])
 
         # Create a new documents
-        doc = Document(doc_id, [words], event_mentions, [], [])
+        doc = Document(doc_id, [words], event_mentions, entity_mentions, [])
         doc.pred_event_mentions = doc.event_mentions
         test.append(doc)
 
