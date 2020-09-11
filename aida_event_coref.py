@@ -1,0 +1,92 @@
+import torch
+import pyhocon
+import json
+
+from transformers import *
+from models import BasicCorefModel
+from utils import prepare_configs, flatten
+from data import load_aida_dataset
+from scorer import get_predicted_antecedents
+from argparse import ArgumentParser
+
+SAVED_PATH = 'trained/model.pt'
+
+# Helper Functions
+def generate_coref_preds(model, data):
+    predictions = {}
+    for inst in data:
+        doc_words = inst.words
+        event_mentions = inst.event_mentions
+        preds = model(inst, is_training=False)[1]
+        preds = [x.cpu().data.numpy() for x in preds]
+        top_antecedents, top_antecedent_scores = preds[2:]
+        predicted_antecedents = get_predicted_antecedents(top_antecedents, top_antecedent_scores)
+
+        predicted_clusters, m2cluster = [], {}
+        for ix, e in enumerate(event_mentions):
+            if predicted_antecedents[ix] < 0:
+                cluster_id = len(predicted_clusters)
+                predicted_clusters.append([e])
+            else:
+                antecedent_idx = predicted_antecedents[ix]
+                p_e = event_mentions[antecedent_idx]
+                cluster_id = m2cluster[p_e['id']]
+                predicted_clusters[cluster_id].append(e)
+            m2cluster[e['id']] = cluster_id
+        # Update predictions
+        predictions[inst.doc_id] = {}
+        predictions[inst.doc_id]['words']= doc_words
+        predictions[inst.doc_id]['predicted_clusters'] = predicted_clusters
+
+    return predictions
+
+# Main Code
+if __name__ == "__main__":
+    # Parse argument
+    parser = ArgumentParser()
+    parser.add_argument('-i', '--input')
+    parser.add_argument('-o', '--output')
+    parser.add_argument('-l', '--ltf_dir')
+    args = parser.parse_args()
+
+    # Load configs
+    configs = prepare_configs('basic')
+    # Load tokenizer
+    tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
+    # Load AIDA dataset
+    test = load_aida_dataset(cs_filepath = args.input,
+                             ltf_dir = args.ltf_dir,
+                             tokenizer=tokenizer)[-1]
+    # Load model
+    model = BasicCorefModel(configs)
+    if SAVED_PATH:
+        checkpoint = torch.load(SAVED_PATH)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        print('Reloaded model')
+
+    # Extract clusters
+    predictions = generate_coref_preds(model, test)
+    all_clusters = []
+    for p in predictions.values():
+        all_clusters.append(p['predicted_clusters'])
+    all_clusters = flatten(all_clusters)
+    for c in all_clusters:
+        c.sort(key=lambda x: x['id'])
+    all_clusters.sort(key=lambda x: x[0]['id'])
+
+    # Output
+    event2lines = {}
+    with open(args.input, 'r', encoding='utf8') as f:
+        for line in f:
+            es = line.strip().split('\t')
+            event_id = es[0][1:]
+            if not event_id in event2lines:
+                event2lines[event_id] = []
+            event2lines[event_id].append(line)
+    with open(args.output, 'w+', encoding='utf8') as f:
+        for c in all_clusters:
+            first_id = c[0]['id']
+            for e in c:
+                lines = event2lines[e['id']]
+                for line in lines:
+                    f.write(line.replace(':' + e['id'], ':' + first_id))
