@@ -60,7 +60,10 @@ if __name__ == "__main__":
     # Load model
     model = BasicCorefModel(configs)
     if SAVED_PATH:
-        checkpoint = torch.load(SAVED_PATH)
+        if torch.cuda.is_available():
+            checkpoint = torch.load(SAVED_PATH)
+        else:
+            checkpoint = torch.load(SAVED_PATH, map_location='cpu')
         model.load_state_dict(checkpoint['model_state_dict'])
         print('Reloaded model')
 
