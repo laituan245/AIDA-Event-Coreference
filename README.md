@@ -1,3 +1,10 @@
 # Event Coreference Resolution
 
-The code for event attributes classifiers is available at [laituan245/Event-Attributes-Classifier](https://github.com/laituan245/Event-Attributes-Classifier).
+
+The models were trained on ACE-2005 dataset and then applied directly to AIDA data.
+
+```
+docker build --tag laituan245/spanbert_coref .
+docker push laituan245/spanbert_coref
+docker run --rm -v /shared:/shared laituan245/spanbert_coref -i input.cs -o coref.cs -ltf ltf_dir
+```
