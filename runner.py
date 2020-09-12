@@ -25,7 +25,10 @@ def train(config_name):
     if configs['use_arguments_features']: assert(configs['use_groundtruth'])
 
     # Use the entire ACE-05 dataset for training
-    train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ACE05-E', tokenizer, 'resources/ACE05-E-Preds')
+    if not configs['use_augmented']:
+        train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ACE05-E', tokenizer, 'resources/ACE05-E-Preds')
+    else:
+        train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ACE05-E-Augmented', tokenizer)
     train_set.data = train_set.data + ace_dev_set.data + ace_test_set.data
     print('Number of training documents (ACE-05 dataset) is: {}'.format(len(train_set)))
 
