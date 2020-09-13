@@ -58,7 +58,8 @@ if __name__ == "__main__":
     # Parse argument
     parser = ArgumentParser()
     parser.add_argument('-i', '--input')
-    parser.add_argument('-o', '--output_dir')
+    parser.add_argument('-c', '--cs_file')
+    parser.add_argument('-t', '--tab_file')
     parser.add_argument('-l', '--ltf_dir')
     args = parser.parse_args()
 
@@ -99,7 +100,7 @@ if __name__ == "__main__":
             if not event_id in event2lines:
                 event2lines[event_id] = []
             event2lines[event_id].append(line)
-    with open(join(args.output_dir, 'events_corefer.cs'), 'w+', encoding='utf8') as f:
+    with open(args.cs_file, 'w+', encoding='utf8') as f:
         for c in all_clusters:
             first_id = c[0]['id']
             for e in c:
@@ -108,7 +109,7 @@ if __name__ == "__main__":
                     f.write(line.replace(':' + e['id'], ':' + first_id))
 
     # Output tab file
-    with open(join(args.output_dir, 'events_corefer_confidence.tab'), 'w+', encoding='utf8') as f:
+    with open(args.tab_file, 'w+', encoding='utf8') as f:
         for doc_id, e1, e2, score in pair_scores:
             loc1 = '{},{}'.format(e1['trigger']['original_start'], e1['trigger']['original_end'])
             loc2 = '{},{}'.format(e2['trigger']['original_start'], e2['trigger']['original_end'])
