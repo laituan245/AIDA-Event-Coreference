@@ -26,6 +26,9 @@ class Document:
             assert(len(_arguments) == len(e['arguments']))
             e['arguments'] = _arguments
 
+        # Sort by trigger start
+        self.event_mentions.sort(key=lambda x: x['trigger']['start'])
+
         # Update self.events
         self.events = {}
         for event_mention in event_mentions:

@@ -1,6 +1,7 @@
 import torch
 import pyhocon
 import json
+import numpy as np
 
 from transformers import *
 from models import BasicCorefModel
@@ -12,14 +13,18 @@ from argparse import ArgumentParser
 SAVED_PATH = 'trained/model.pt'
 
 # Helper Functions
+def sigmoid(z):
+    return 1/(1 + np.exp(-z))
+
 def generate_coref_preds(model, data):
-    predictions = {}
+    predictions, pair_scores = {}, {}
     for inst in data:
         doc_words = inst.words
         event_mentions = inst.event_mentions
         preds = model(inst, is_training=False)[1]
         preds = [x.cpu().data.numpy() for x in preds]
         top_antecedents, top_antecedent_scores = preds[2:]
+        top_antecedent_scores = sigmoid(top_antecedent_scores)
         predicted_antecedents = get_predicted_antecedents(top_antecedents, top_antecedent_scores)
 
         predicted_clusters, m2cluster = [], {}
@@ -38,14 +43,20 @@ def generate_coref_preds(model, data):
         predictions[inst.doc_id]['words']= doc_words
         predictions[inst.doc_id]['predicted_clusters'] = predicted_clusters
 
-    return predictions
+        # Update pair_scores
+        for ix, ei in enumerate(event_mentions):
+            for jx in range(ix):
+                ej = event_mentions[jx]
+                pair_scores.append((inst.doc_id, ei, ej, top_antecedent_scores[ix, jx+1]))
+
+    return predictions, pair_scores
 
 # Main Code
 if __name__ == "__main__":
     # Parse argument
     parser = ArgumentParser()
     parser.add_argument('-i', '--input')
-    parser.add_argument('-o', '--output')
+    parser.add_argument('-o', '--output_dir')
     parser.add_argument('-l', '--ltf_dir')
     args = parser.parse_args()
 
@@ -68,7 +79,7 @@ if __name__ == "__main__":
         print('Reloaded model')
 
     # Extract clusters
-    predictions = generate_coref_preds(model, test)
+    predictions, pair_scores = generate_coref_preds(model, test)
     all_clusters = []
     for p in predictions.values():
         all_clusters.append(p['predicted_clusters'])
@@ -86,10 +97,17 @@ if __name__ == "__main__":
             if not event_id in event2lines:
                 event2lines[event_id] = []
             event2lines[event_id].append(line)
-    with open(args.output, 'w+', encoding='utf8') as f:
+    with open(join(args.output, 'events_corefer.cs'), 'w+', encoding='utf8') as f:
         for c in all_clusters:
             first_id = c[0]['id']
             for e in c:
                 lines = event2lines[e['id']]
                 for line in lines:
                     f.write(line.replace(':' + e['id'], ':' + first_id))
+
+    # Output tab file
+    with open(join(args.output, 'events_corefer_confidence.tab'), 'w+', encoding='utf8') as f:
+        for doc_id, e1, e2, score in pair_scores:
+            loc1 = '{},{}'.format(e1['trigger']['start'], e1['trigger']['end'])
+            loc2 = '{},{}'.format(e2['trigger']['start'], e2['trigger']['end'])
+            f.write('{}\t{}\t{}\t{}\n'.format(doc_id, loc1, loc2, score))
