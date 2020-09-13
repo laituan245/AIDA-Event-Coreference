@@ -6,5 +6,5 @@ The models were trained on ACE-2005 dataset and then applied directly to AIDA da
 ```
 docker build --tag laituan245/spanbert_coref .
 docker push laituan245/spanbert_coref
-docker run --rm -v /shared:/shared laituan245/spanbert_coref -i input.cs -o output_dir -l ltf_dir
+docker run --rm -v /shared:/shared laituan245/spanbert_coref -i input.cs -c output.cs -t output.tab -l ltf_dir
 ```
