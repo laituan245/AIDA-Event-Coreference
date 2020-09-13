@@ -3,6 +3,7 @@ import pyhocon
 import json
 import numpy as np
 
+from os.path import join
 from transformers import *
 from models import BasicCorefModel
 from utils import prepare_configs, flatten
@@ -17,11 +18,12 @@ def sigmoid(z):
     return 1/(1 + np.exp(-z))
 
 def generate_coref_preds(model, data):
-    predictions, pair_scores = {}, {}
+    predictions, pair_scores = {}, []
     for inst in data:
         doc_words = inst.words
         event_mentions = inst.event_mentions
-        preds = model(inst, is_training=False)[1]
+        with torch.no_grad():
+            preds = model(inst, is_training=False)[1]
         preds = [x.cpu().data.numpy() for x in preds]
         top_antecedents, top_antecedent_scores = preds[2:]
         top_antecedent_scores = sigmoid(top_antecedent_scores)
@@ -97,7 +99,7 @@ if __name__ == "__main__":
             if not event_id in event2lines:
                 event2lines[event_id] = []
             event2lines[event_id].append(line)
-    with open(join(args.output, 'events_corefer.cs'), 'w+', encoding='utf8') as f:
+    with open(join(args.output_dir, 'events_corefer.cs'), 'w+', encoding='utf8') as f:
         for c in all_clusters:
             first_id = c[0]['id']
             for e in c:
@@ -106,8 +108,8 @@ if __name__ == "__main__":
                     f.write(line.replace(':' + e['id'], ':' + first_id))
 
     # Output tab file
-    with open(join(args.output, 'events_corefer_confidence.tab'), 'w+', encoding='utf8') as f:
+    with open(join(args.output_dir, 'events_corefer_confidence.tab'), 'w+', encoding='utf8') as f:
         for doc_id, e1, e2, score in pair_scores:
-            loc1 = '{},{}'.format(e1['trigger']['start'], e1['trigger']['end'])
-            loc2 = '{},{}'.format(e2['trigger']['start'], e2['trigger']['end'])
+            loc1 = '{},{}'.format(e1['trigger']['original_start'], e1['trigger']['original_end'])
+            loc2 = '{},{}'.format(e2['trigger']['original_start'], e2['trigger']['original_end'])
             f.write('{}\t{}\t{}\t{}\n'.format(doc_id, loc1, loc2, score))

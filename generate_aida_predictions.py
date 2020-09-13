@@ -2,6 +2,7 @@ import torch
 import pyhocon
 import json
 
+from os.path import join
 from transformers import *
 from models import BasicCorefModel
 from utils import prepare_configs, flatten

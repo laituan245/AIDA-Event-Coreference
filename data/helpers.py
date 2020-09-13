@@ -165,6 +165,8 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
                 event_mention['trigger'] = {'text': info['actual_text']}
                 event_mention['trigger']['start'] = start2word[info['text_start']]
                 event_mention['trigger']['end'] = end2word[info['text_end']] + 1
+                event_mention['trigger']['original_start'] = info['text_start']
+                event_mention['trigger']['original_end'] = info['text_end']
                 event_mentions.append(event_mention)
         event_mentions.sort(key=lambda x: x['trigger']['start'])
 
