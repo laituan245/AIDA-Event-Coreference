@@ -22,6 +22,14 @@ def generate_coref_preds(model, data):
     for inst in data:
         doc_words = inst.words
         event_mentions = inst.event_mentions
+
+        if len(event_mentions) == 0:
+            # Corner case (when no events were extracted)
+            predictions[inst.doc_id] = {}
+            predictions[inst.doc_id]['words']= doc_words
+            predictions[inst.doc_id]['predicted_clusters'] = []
+            continue
+
         with torch.no_grad():
             preds = model(inst, is_training=False)[1]
         preds = [x.cpu().data.numpy() for x in preds]
