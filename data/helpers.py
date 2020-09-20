@@ -163,8 +163,21 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
             if info['doc_id'] == doc_id:
                 event_mention = {'id': eid, 'event_type': info['type'], 'arguments': info['arguments']}
                 event_mention['trigger'] = {'text': info['actual_text']}
-                event_mention['trigger']['start'] = start2word[info['text_start']]
-                event_mention['trigger']['end'] = end2word[info['text_end']] + 1
+                try:
+                    event_mention['trigger']['start'] = start2word[info['text_start']]
+                    event_mention['trigger']['end'] = end2word[info['text_end']] + 1
+                except KeyError:
+                    # Find the smallest possible region that contains
+                    start_token, end_token = None, None
+                    for i in range(len(tokens)):
+                        if tokens[i][0] > info['text_start'] and start_token is None:
+                            start_token = i-1
+                        if tokens[i][0] > info['text_end'] and end_token is None:
+                            end_token = i-1
+                    if start_token is None: start_token = len(tokens)-1
+                    if end_token is None: end_token = len(tokens)-1
+                    event_mention['trigger']['start'] = start_token
+                    event_mention['trigger']['end'] = end_token
                 event_mention['trigger']['original_start'] = info['text_start']
                 event_mention['trigger']['original_end'] = info['text_end']
                 event_mentions.append(event_mention)
