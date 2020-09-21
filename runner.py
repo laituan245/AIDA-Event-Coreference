@@ -22,7 +22,6 @@ def train(config_name):
     # Prepare tokenizer, dataset, and model
     configs = prepare_configs(config_name)
     tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
-    if configs['use_arguments_features']: assert(configs['use_groundtruth'])
 
     # Use the entire ACE-05 dataset for training
     if not configs['use_augmented']:

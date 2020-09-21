@@ -22,9 +22,6 @@ class BasicCorefModel(BaseModel):
         # Event type embedding (If use_event_type_features enabled)
         if configs['use_event_type_features']:
             self.type_embeddings = nn.Embedding(2, configs['feature_size'])
-        # Arguments feature embedding
-        if configs['use_arguments_features']:
-            self.coref_num_embeddings = nn.Embedding(10, configs['feature_size'])
 
         # Initialize embeddings
         for name, param in self.named_parameters():
@@ -76,21 +73,10 @@ class BasicCorefModel(BaseModel):
                     same_types[i, j] = int(e_types[i] == e_types[j])
             same_types_features = self.type_embeddings(same_types)
 
-        # Compute arguments features (if enabled)
-        args_features = None
-        if self.configs['use_arguments_features']:
-            coref_num = torch.zeros((n,n)).to(self.device).long()
-            for i in range(len(event_mentions)):
-                for j in range(len(event_mentions)):
-                    coref_num[i,j] = compute_coref_num(event_mentions[i], event_mentions[j])
-            args_features = self.coref_num_embeddings(coref_num)
-
         # Compute pair features and score the pairs
         pair_features = self.get_pair_embs(event_mention_features, event_mentions)
         if not same_types_features is None:
             pair_features = torch.cat([pair_features, same_types_features], dim=-1)
-        if not args_features is None:
-            pair_features = torch.cat([pair_features, args_features], dim=-1)
         pair_scores = self.pair_scorer(pair_features)
 
         # Compute antecedent_scores
@@ -178,7 +164,5 @@ class BasicCorefModel(BaseModel):
     def get_pair_embs_size(self):
         pair_embs_size = 3 * self.get_span_emb_size() # src_vector, target_vector, product_vector
         if self.configs['use_event_type_features']:
-            pair_embs_size += self.configs['feature_size']
-        if self.configs['use_arguments_features']:
             pair_embs_size += self.configs['feature_size']
         return pair_embs_size
