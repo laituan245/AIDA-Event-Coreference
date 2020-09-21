@@ -73,11 +73,14 @@ class BasicCorefModel(BaseModel):
                     same_types[i, j] = int(e_types[i] == e_types[j])
             same_types_features = self.type_embeddings(same_types)
 
-        # Compute pair features and score the pairs
-        pair_features = self.get_pair_embs(event_mention_features, event_mentions)
-        if not same_types_features is None:
-            pair_features = torch.cat([pair_features, same_types_features], dim=-1)
-        pair_scores = self.pair_scorer(pair_features)
+        # Compute pair features and score the pairs (while avoiding crashes due to GPU limit)
+        n = len(event_mentions)
+        pair_scores = torch.zeros((n, n)).to(self.device)
+        for i in range(n):
+            row_pair_embs = self.get_row_pair_embs(event_mention_features, i)
+            if not same_types_features is None:
+                row_pair_embs = torch.cat([row_pair_embs, same_types_features[i:i+1,:,:]], dim=-1)
+            pair_scores[i,:] = self.pair_scorer(row_pair_embs)
 
         # Compute antecedent_scores
         k = len(event_mentions)
@@ -112,6 +115,25 @@ class BasicCorefModel(BaseModel):
                  antecedent_scores]
 
         return loss, preds
+
+    def get_row_pair_embs(self, candidate_embs, row_index):
+        n, d = candidate_embs.size()
+        features_list = []
+
+        # Compute diff_embs and prod_embs
+        src_embs = candidate_embs.view(1, n, d)
+        target_embs = candidate_embs[row_index,:].view(1, 1, d).repeat([1, n, 1])
+        prod_embds = src_embs * target_embs
+
+        # Update features_list
+        features_list.append(src_embs)
+        features_list.append(target_embs)
+        features_list.append(prod_embds)
+
+        # Concatenation
+        pair_embs = torch.cat(features_list, 2)
+
+        return pair_embs
 
     def get_cluster_ids(self, event_mentions, coreferential_pairs):
         cluster_ids = [-1] * len(event_mentions)
