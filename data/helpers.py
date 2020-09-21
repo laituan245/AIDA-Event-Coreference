@@ -173,9 +173,9 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
                         if tokens[i][0] > info['text_start'] and start_token is None:
                             start_token = i-1
                         if tokens[i][0] > info['text_end'] and end_token is None:
-                            end_token = i-1
+                            end_token = i
                     if start_token is None: start_token = len(tokens)-1
-                    if end_token is None: end_token = len(tokens)-1
+                    if end_token is None: end_token = len(tokens)
                     event_mention['trigger']['start'] = start_token
                     event_mention['trigger']['end'] = end_token
                 event_mention['trigger']['original_start'] = info['text_start']
