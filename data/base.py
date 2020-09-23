@@ -1,6 +1,12 @@
 import nltk
 from utils import *
 
+def mentionid2eventid(mention_id):
+    if not '-' in mention_id: return mention_id
+    es = mention_id.split('-')
+    event_id = es[0] + '-' + es[2]
+    return event_id
+
 class Document:
     def __init__(self, doc_id, sentences, event_mentions, entity_mentions, pred_graphs):
         self.doc_id = doc_id
@@ -33,7 +39,7 @@ class Document:
         self.events = {}
         for event_mention in event_mentions:
             mention_id = event_mention['id']
-            event_id = mention_id[:mention_id.rfind('-')]
+            event_id = mentionid2eventid(mention_id)
             if not event_id in self.events:
                 self.events[event_id] = []
             self.events[event_id].append(event_mention)
@@ -44,12 +50,10 @@ class Document:
             for j in range(i+1, len(event_mentions)):
                 # Find the event id of the first event mention
                 mention_i = event_mentions[i]
-                mention_id_i = mention_i['id']
-                event_id_i = mention_id_i[:mention_id_i.rfind('-')]
+                event_id_i = mentionid2eventid(mention_i['id'])
                 # Find the event id of the second event mention
                 mention_j = event_mentions[j]
-                mention_id_j = mention_j['id']
-                event_id_j = mention_id_j[:mention_id_j.rfind('-')]
+                event_id_j = mentionid2eventid(mention_j['id'])
                 # Check if refer to the same event
                 if event_id_i == event_id_j:
                     loc_i = (mention_i['trigger']['start'], mention_i['trigger']['end'])

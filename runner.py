@@ -11,28 +11,19 @@ from scorer import aida_evaluate
 from data import load_oneie_dataset, load_aida_dataset
 from argparse import ArgumentParser
 
-# Constants
-LIFU_SYSTEM = 'lifu'
-YING_SYSTEM = 'ying'
-SYSTEM = YING_SYSTEM
-
-
 # Main Functions
 def train(config_name):
     # Prepare tokenizer, dataset, and model
     configs = prepare_configs(config_name)
     tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
 
-    # Use the entire ACE-05 dataset for training
-    if not configs['use_augmented']:
-        train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ACE05-E', tokenizer, 'resources/ACE05-E-Preds')
-    else:
-        train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ACE05-E-Augmented', tokenizer)
+    # Use the entire ERE-ES dataset for training
+    train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ERE-ES', tokenizer)
     train_set.data = train_set.data + ace_dev_set.data + ace_test_set.data
-    print('Number of training documents (ACE-05 dataset) is: {}'.format(len(train_set)))
+    print('Number of training documents (ERE-ES dataset) is: {}'.format(len(train_set)))
 
     # Load the AIDA data for validation/testing
-    cs_filepath = 'resources/AIDA/{}_system/events_fine_all_clean.cs'.format(SYSTEM)
+    cs_filepath = 'resources/AIDA/ying_system/events_fine_all_clean.cs'
     ltf_dir = 'resources/AIDA/ltf'
     dev_set = load_aida_dataset(cs_filepath = cs_filepath, ltf_dir = ltf_dir, tokenizer=tokenizer)[-1]
     print('Number of dev documents (AIDA dataset) is: {}'.format(len(dev_set)))
@@ -86,7 +77,7 @@ def train(config_name):
                 if dev_score > best_dev_score:
                     best_dev_score = dev_score
                     # Save the model
-                    save_path = os.path.join(configs['saved_path'], 'model.pt')
+                    save_path = os.path.join(configs['saved_path'], 'es_model.pt')
                     torch.save({'model_state_dict': model.state_dict()}, save_path)
                     print('Saved the model', flush=True)
 
@@ -98,7 +89,7 @@ def evaluate(config_name, saved_path):
     tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
 
     # Load the AIDA data for validation/testing
-    cs_filepath = 'resources/AIDA/{}_system/events_fine_all_clean.cs'.format(SYSTEM)
+    cs_filepath = 'resources/AIDA/ying_system/events_fine_all_clean.cs'
     ltf_dir = 'resources/AIDA/ltf'
     dev_set = load_aida_dataset(cs_filepath = cs_filepath, ltf_dir = ltf_dir, tokenizer=tokenizer)[-1]
     print('Number of dev documents (AIDA dataset) is: {}'.format(len(dev_set)))
