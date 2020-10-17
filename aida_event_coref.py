@@ -11,7 +11,7 @@ from data import load_aida_dataset
 from scorer import get_predicted_antecedents
 from argparse import ArgumentParser
 
-SAVED_PATH = 'trained/model.pt'
+SAVED_PATH = 'en_event.pt'
 
 # Helper Functions
 def sigmoid(z):
