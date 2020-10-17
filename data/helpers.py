@@ -140,7 +140,11 @@ def load_aida_dataset(cs_filepath, ltf_dir, tokenizer):
     train, dev, test = [], [], []
     for doc_id in aida_doc_ids:
         ltf_filepath = join(ltf_dir, '{}.ltf.xml'.format(doc_id))
-        tokens = read_ltf(ltf_filepath)
+        try:
+            tokens = read_ltf(ltf_filepath)
+        except:
+            # Skip failed LTF file
+            continue
         words = [token[-1] for token in tokens]
         start2word, end2word = {}, {}
         for i in range(len(tokens)):
