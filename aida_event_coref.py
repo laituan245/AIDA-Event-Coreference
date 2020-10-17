@@ -10,6 +10,7 @@ from utils import prepare_configs, flatten
 from data import load_aida_dataset
 from scorer import get_predicted_antecedents
 from argparse import ArgumentParser
+from shutil import copyfile
 
 SAVED_PATH = 'en_event.pt'
 
@@ -70,6 +71,9 @@ if __name__ == "__main__":
     parser.add_argument('-t', '--tab_file')
     parser.add_argument('-l', '--ltf_dir')
     args = parser.parse_args()
+
+    # Copy original input cs file to output cs file at the beginning
+    copyfile(args.input, args.cs_file)
 
     # Load configs
     configs = prepare_configs('basic')
