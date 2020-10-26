@@ -12,6 +12,16 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 COREF_RESULTS_REGEX = re.compile(r".*Coreference: Recall: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tPrecision: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tF1: ([0-9.]+)%.*", re.DOTALL)
 BLANC_RESULTS_REGEX = re.compile(r".*BLANC: Recall: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tPrecision: \([0-9.]+ / [0-9.]+\) ([0-9.]+)%\tF1: ([0-9.]+)%.*", re.DOTALL)
 
+def mentionid2eventid(mention_id, dataset_name):
+    if dataset_name == 'ERE':
+        if not '-' in mention_id: return mention_id
+        es = mention_id.split('-')
+        event_id = es[0] + '-' + es[2]
+        return event_id
+    elif dataset_name == 'ACE':
+        return mention_id[:mention_id.rfind('-')]
+
+
 def evaluate_coref(model, eval_set, configs, verbose=True):
     predictions = []
     for inst in eval_set:
@@ -119,7 +129,7 @@ def output_gold_conll(gold_file, documents):
         cluster_labels = ['-'] * doc.num_words
         for e in doc.event_mentions:
             mention_id = e['id']
-            event_id = mention_id[:mention_id.rfind('-')]
+            event_id = mentionid2eventid(mention_id, doc.dataset_name)
             if not event_id in eventid2label:
                 eventid2label[event_id] = 1 + len(eventid2label)
             start_idx, end_idx = e['trigger']['start'], e['trigger']['end']-1

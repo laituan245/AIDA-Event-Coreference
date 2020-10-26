@@ -53,10 +53,7 @@ class BasicCorefModel(BaseModel):
         assert(word_features.size()[0] == inst.num_words)
 
         # Compute event_mention_features (averaging)
-        if self.configs['use_groundtruth']:
-            event_mentions = inst.event_mentions
-        else:
-            event_mentions = inst.pred_event_mentions
+        event_mentions = inst.event_mentions
         event_mention_starts = [e['trigger']['start'] for e in event_mentions]
         event_mention_ends = [e['trigger']['end'] for e in event_mentions]
         event_mention_features = get_span_emb(word_features, event_mention_starts, event_mention_ends)
