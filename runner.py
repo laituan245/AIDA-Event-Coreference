@@ -15,7 +15,7 @@ from argparse import ArgumentParser
 def train(config_name):
     # Prepare tokenizer, dataset, and model
     configs = prepare_configs(config_name)
-    tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
+    tokenizer = AutoTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
 
     # Use the entire ERE-ES dataset for training
     train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ERE-ES', tokenizer)

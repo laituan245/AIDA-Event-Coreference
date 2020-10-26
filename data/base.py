@@ -113,18 +113,21 @@ class Dataset:
 
         # Tokenize the documents
         for doc in self.data:
-            doc_tokens = tokenizer.tokenize(' '.join(doc.words))
+            # Build doc_tokens, doc.word_starts_indexes
+            doc_tokens, word_starts_indexes, start_index = [], [], 0
+            for w in doc.words:
+                word_tokens = tokenizer.tokenize(w)
+                doc_tokens += word_tokens
+                word_starts_indexes.append(start_index)
+                start_index += len(word_tokens)
+            doc.word_starts_indexes = word_starts_indexes
+            assert(len(doc.word_starts_indexes) == len(doc.words))
+
+            # Build token_windows, mask_windows, and input_masks
             doc_token_ids = tokenizer.convert_tokens_to_ids(doc_tokens)
-            doc.token_windows, doc.mask_windows = \
-                convert_to_sliding_window(doc_token_ids, sliding_window_size, tokenizer)
+            doc.token_windows, doc.mask_windows = convert_to_sliding_window(doc_token_ids, 512, tokenizer)
             doc.input_masks = extract_input_masks_from_mask_windows(doc.mask_windows)
 
-            # Compute the starting index of each word
-            doc.word_starts_indexes = []
-            for index, word in enumerate(doc_tokens):
-                if not word.startswith('##'):
-                    doc.word_starts_indexes.append(index)
-            assert(len(doc.word_starts_indexes) == len(doc.words))
 
     def __len__(self):
         return len(self.data)
