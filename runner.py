@@ -7,8 +7,8 @@ import random
 from transformers import *
 from models import BasicCorefModel
 from utils import RunningAverage, prepare_configs
-from scorer import aida_evaluate
-from data import load_oneie_dataset, load_aida_dataset
+from scorer import evaluate_coref
+from data import load_oneie_dataset
 from argparse import ArgumentParser
 
 # Main Functions
@@ -18,22 +18,17 @@ def train(config_name):
     tokenizer = AutoTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
 
     # Use the entire ERE-ES dataset for training
-    train_set, ace_dev_set, ace_test_set = load_oneie_dataset('resources/ERE-ES', tokenizer)
-    train_set.data = train_set.data + ace_dev_set.data + ace_test_set.data
-    print('Number of training documents (ERE-ES dataset) is: {}'.format(len(train_set)))
-
-    # Load the AIDA data for validation/testing
-    cs_filepath = 'resources/AIDA/ying_system/events_fine_all_clean.cs'
-    ltf_dir = 'resources/AIDA/ltf'
-    dev_set = load_aida_dataset(cs_filepath = cs_filepath, ltf_dir = ltf_dir, tokenizer=tokenizer)[-1]
-    print('Number of dev documents (AIDA dataset) is: {}'.format(len(dev_set)))
+    es_train_set, es_dev_set, es_test_set = load_oneie_dataset('resources/ERE-ES', tokenizer)
+    es_dev_set.data = es_dev_set.data + es_test_set.data
+    print('Number of training documents (ERE-ES dataset) is: {}'.format(len(es_train_set)))
+    print('Number of dev documents (ERE-ES dataset) is: {}'.format(len(es_dev_set)))
 
     # Load the model
     model = BasicCorefModel(configs)
     print('Initialized tokenier, dataset, and model')
 
     # Initialize the optimizer
-    num_train_docs = len(train_set)
+    num_train_docs = len(es_train_set)
     epoch_steps = int(math.ceil(num_train_docs / configs['batch_size']))
     num_train_steps = int(epoch_steps * configs['epochs'])
     num_warmup_steps = int(num_train_steps * 0.1)
@@ -53,7 +48,7 @@ def train(config_name):
         random.shuffle(train_indices)
         for train_idx in train_indices:
             iters += 1
-            inst = train_set[train_idx]
+            inst = es_train_set[train_idx]
             iter_loss = model(inst, is_training=True)[0]
             iter_loss /= configs['batch_size']
             iter_loss.backward()
@@ -68,40 +63,19 @@ def train(config_name):
                 progress.update(1)
                 progress.set_postfix_str('Average Train Loss: {}'.format(accumulated_loss()))
 
-            # Evaluation and Report
-            if iters % configs['report_frequency'] == 0:
-                print('Evaluation on the dev set', flush=True)
-                dev_score = aida_evaluate(model, dev_set, configs)['avg']
+        # Evaluation and Report
+        print('Evaluation on the dev set (ERE-ES)', flush=True)
+        dev_score = evaluate_coref(model, es_dev_set, configs)['avg']
 
-                # Save model if it has better dev score
-                if dev_score > best_dev_score:
-                    best_dev_score = dev_score
-                    # Save the model
-                    save_path = os.path.join(configs['saved_path'], 'es_model.pt')
-                    torch.save({'model_state_dict': model.state_dict()}, save_path)
-                    print('Saved the model', flush=True)
+        # Save model if it has better dev score
+        if dev_score > best_dev_score:
+            best_dev_score = dev_score
+            # Save the model
+            save_path = os.path.join(configs['saved_path'], 'es_model.pt')
+            torch.save({'model_state_dict': model.state_dict()}, save_path)
+            print('Saved the model', flush=True)
 
         progress.close()
-
-def evaluate(config_name, saved_path):
-    # Prepare tokenizer, dataset, and model
-    configs = prepare_configs(config_name)
-    tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
-
-    # Load the AIDA data for validation/testing
-    cs_filepath = 'resources/AIDA/ying_system/events_fine_all_clean.cs'
-    ltf_dir = 'resources/AIDA/ltf'
-    dev_set = load_aida_dataset(cs_filepath = cs_filepath, ltf_dir = ltf_dir, tokenizer=tokenizer)[-1]
-    print('Number of dev documents (AIDA dataset) is: {}'.format(len(dev_set)))
-
-    # Load the model
-    model = BasicCorefModel(configs)
-    checkpoint = torch.load(saved_path)
-    model.load_state_dict(checkpoint['model_state_dict'])
-    print('Reloaded model')
-
-    print('Evaluation on the dev set', flush=True)
-    dev_score = aida_evaluate(model, dev_set, configs)['avg']
 
 if __name__ == "__main__":
     # Parse argument
