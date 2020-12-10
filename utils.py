@@ -26,9 +26,6 @@ def read_ltf(ltf_file_path):
 
 def prepare_configs(config_name, verbose=True):
     configs = pyhocon.ConfigFactory.parse_file('configs/basic.conf')[config_name]
-    configs['saved_path'] = 'trained'
-    if not os.path.exists(configs['saved_path']):
-        os.makedirs(configs['saved_path'])
     if verbose: print(configs)
     return configs
 

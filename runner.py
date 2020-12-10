@@ -12,7 +12,7 @@ from scorer import evaluate_coref
 from data import load_oneie_dataset
 from argparse import ArgumentParser
 
-PRETRAINED_MODEL = None
+PRETRAINED_MODEL = 'model.pt'
 
 # Main Functions
 def train(config_name):
@@ -35,7 +35,7 @@ def train(config_name):
     model = BasicCorefModel(configs)
     print('Initialized tokenier, dataset, and model')
 
-    if PRETRAINED_MODEL:
+    if PRETRAINED_MODEL and os.path.exists(PRETRAINED_MODEL):
         checkpoint = torch.load(PRETRAINED_MODEL)
         model.load_state_dict(checkpoint['model_state_dict'], strict=False)
         print('Reloaded pretrained ckpt')
@@ -103,7 +103,7 @@ def train(config_name):
         if dev_score > best_dev_score:
             best_dev_score = dev_score
             # Save the model
-            save_path = os.path.join(configs['saved_path'], 'es_model.pt')
+            save_path = os.path.join('model.pt')
             torch.save({'model_state_dict': model.state_dict()}, save_path)
             print('Saved the model', flush=True)
 
