@@ -69,8 +69,8 @@ if __name__ == "__main__":
     # Parse argument
     parser = ArgumentParser()
     parser.add_argument('-i', '--input', default=SAMPLE_DATA_PATH + SAMPLE_LANGUAGE + '/event/events_fine_all_clean.cs')
-    parser.add_argument('-c', '--cs_file', default='/shared/nas/data/m1/tuanml2/aida_rerun/events_corefer.cs')
-    parser.add_argument('-t', '--tab_file', default='/shared/nas/data/m1/tuanml2/aida_rerun/events_corefer_confidence.tab')
+    parser.add_argument('-c', '--cs_file', default='/shared/nas/data/m1/tuanml2/aida_rerun/{}/events_corefer.cs'.format(SAMPLE_LANGUAGE))
+    parser.add_argument('-t', '--tab_file', default='/shared/nas/data/m1/tuanml2/aida_rerun/{}/events_corefer_confidence.tab'.format(SAMPLE_LANGUAGE))
     parser.add_argument('-l', '--ltf_dir', default=SAMPLE_DATA_PATH + 'ltf')
     args = parser.parse_args()
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # Load configs
     configs = prepare_configs('basic')
     # Load tokenizer
-    tokenizer = BertTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
+    tokenizer = AutoTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
     # Load AIDA dataset
     test = load_aida_dataset(cs_filepath = args.input,
                              ltf_dir = args.ltf_dir,
