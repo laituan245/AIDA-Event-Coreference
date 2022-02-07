@@ -51,6 +51,7 @@ def generate_coref_preds(model, data):
                 cluster_id = m2cluster[p_e['id']]
                 predicted_clusters[cluster_id].append(e)
             m2cluster[e['id']] = cluster_id
+        predicted_clusters.sort(key=len, reverse=True)
         # Update predictions
         predictions[inst.doc_id] = {}
         predictions[inst.doc_id]['words']= doc_words
