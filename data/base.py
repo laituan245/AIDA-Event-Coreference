@@ -34,7 +34,7 @@ class Document:
                             'entity': entity_mention,
                             'entity_id': argument['entity_id'],
                         })
-            assert(len(_arguments) == len(e['arguments']))
+            #assert(len(_arguments) == len(e['arguments']))
             e['arguments'] = _arguments
 
         # Sort by trigger start

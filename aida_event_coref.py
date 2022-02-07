@@ -4,7 +4,7 @@ import json
 import numpy as np
 
 from os.path import join
-from transformers import *
+from transformers import AutoTokenizer
 from models import BasicCorefModel
 from utils import prepare_configs, flatten
 from data import load_aida_dataset
