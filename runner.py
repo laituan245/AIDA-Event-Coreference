@@ -32,8 +32,6 @@ def train(config_name):
     print('[ACE05-CN dataset] Train/Dev/Test size is: {}/{}/{}'.format(len(train_set), len(dev_set), len(test_set)))
     print('After filtering')
     train_set.data = [d for d in train_set.data if len(d.event_mentions) > 0]
-    dev_set.data = [d for d in dev_set.data if len(d.event_mentions) > 0]
-    test_set.data = [d for d in test_set.data if len(d.event_mentions) > 0]
     print('[ACE05-CN dataset] Train/Dev/Test size is: {}/{}/{}'.format(len(train_set), len(dev_set), len(test_set)))
 
     # Load the model

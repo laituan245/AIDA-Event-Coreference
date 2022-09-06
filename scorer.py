@@ -25,6 +25,9 @@ def mentionid2eventid(mention_id, dataset_name):
 def evaluate_coref(model, eval_set, configs, verbose=True):
     predictions = []
     for inst in eval_set:
+        if len(inst.event_mentions) == 0:
+            predictions.append({})
+            continue
         # Apply the model for prediction
         with torch.no_grad():
             loss, preds = model(inst, is_training=False)
