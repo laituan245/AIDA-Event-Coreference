@@ -94,7 +94,9 @@ def train(config_name):
             save_path = os.path.join('model.pt')
             torch.save({'model_state_dict': model.state_dict()}, save_path)
             print('Saved the model', flush=True)
-
+            # Evaluation on the test set
+            print('Evaluation on the test set')
+            test_score = evaluate_coref(model, test_set, configs)['avg']
 
 if __name__ == "__main__":
     # Parse argument
