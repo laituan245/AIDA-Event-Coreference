@@ -18,18 +18,15 @@ PRETRAINED_MODEL = 'model.pt'
 def train(config_name):
     # Prepare tokenizer, dataset, and model
     configs = prepare_configs(config_name)
-    tokenizer = AutoTokenizer.from_pretrained(configs['transformer'], do_basic_tokenize=False)
+    tokenizer = AutoTokenizer.from_pretrained(
+            configs['transformer'],
+            do_basic_tokenize=False
+    )
+    print('Loaded tokenizer {}'.format(configs['transformer']))
 
-    # Load the ERE-ES dataset
-    es_train_set, es_dev_set, es_test_set = load_oneie_dataset('resources/ERE-ES', tokenizer, dataset_name='ERE')
-    es_test_set.data = es_test_set.data + es_train_set.data[-25:]
-    es_train_set.data = es_train_set.data[:-25]
-    print('[ERE-ES dataset] Train/Dev/Test size is: {}/{}/{}'.format(len(es_train_set), len(es_dev_set), len(es_test_set)))
-
-    # Load the ACE05-E dataset
-    train_set, dev_set, test_set = load_oneie_dataset('resources/ACE05-E', tokenizer, dataset_name='ACE')
-    en_test_set = copy.deepcopy(test_set)
-    print('[ACE05-E dataset] Train/Dev/Test size is: {}/{}/{}'.format(len(train_set), len(dev_set), len(test_set)))
+    # Load the ACE05-CN dataset
+    train_set, dev_set, test_set = load_oneie_dataset('resources/ACE05-CN', tokenizer, dataset_name='ACE')
+    print('[ACE05-CN dataset] Train/Dev/Test size is: {}/{}/{}'.format(len(train_set), len(dev_set), len(test_set)))
 
     # Load the model
     model = BasicCorefModel(configs)
@@ -47,11 +44,6 @@ def train(config_name):
             # Evaluation on the Spanish dataset
             print('Evaluation on the (Spanish) test set')
             evaluate_coref(model, es_test_set, configs)
-
-    # Create real traing / dev splits
-    train_set.data = es_train_set.data + train_set.data + dev_set.data
-    dev_set.data = es_dev_set.data + es_test_set.data + test_set.data
-    print('Effective training / dev set: {} / {}'.format(len(train_set), len(dev_set)))
 
     # Initialize the optimizer
     num_train_docs = len(train_set)
@@ -92,12 +84,8 @@ def train(config_name):
         progress.close()
 
         # Evaluation and Report
-        print('Evaluation on the combined dev set', flush=True)
+        print('Evaluation on the dev set')
         dev_score = evaluate_coref(model, dev_set, configs)['avg']
-        print('Evaluation on the ERE-ES dev set', flush=True)
-        evaluate_coref(model, es_dev_set, configs)['avg']
-        print('Evaluation on the English test set', flush=True)
-        evaluate_coref(model, en_test_set, configs)['avg']
 
         # Save model if it has better dev score
         if dev_score > best_dev_score:
