@@ -16,6 +16,8 @@ PRETRAINED_MODEL = 'model.pt'
 
 # Main Functions
 def train(config_name):
+    train_log_f = open('train_logs.txt', 'w+')
+
     # Prepare tokenizer, dataset, and model
     configs = prepare_configs(config_name)
     tokenizer = AutoTokenizer.from_pretrained(
@@ -43,13 +45,13 @@ def train(config_name):
         model.load_state_dict(checkpoint['model_state_dict'], strict=False)
         print('Reloaded pretrained ckpt')
         with torch.no_grad():
+            print('Evaluation on the (Chinese) dev set')
+            evaluate_coref(model, dev_set, configs)
+
             # Evaluation on the English dataset
-            print('Evaluation on the (English) test set')
+            print('Evaluation on the (Chinese) test set')
             evaluate_coref(model, test_set, configs)
 
-            # Evaluation on the Spanish dataset
-            print('Evaluation on the (Spanish) test set')
-            evaluate_coref(model, es_test_set, configs)
 
     # Initialize the optimizer
     num_train_docs = len(train_set)
@@ -92,6 +94,11 @@ def train(config_name):
         # Evaluation and Report
         print('Evaluation on the dev set')
         dev_score = evaluate_coref(model, dev_set, configs)['avg']
+        train_log_f.write('\nEpoch {}\n'.format(epoch))
+        train_log_f.write('Dev Score\n')
+        train_log_f.write(str(dev_score))
+        train_log_f.write('\n')
+        train_log_f.flush()
 
         # Save model if it has better dev score
         if dev_score > best_dev_score:
@@ -103,6 +110,11 @@ def train(config_name):
             # Evaluation on the test set
             print('Evaluation on the test set')
             test_score = evaluate_coref(model, test_set, configs)['avg']
+            train_log_f.write('Test Score\n')
+            train_log_f.write(str(test_score))
+            train_log_f.write('\n')
+            train_log_f.flush()
+    train_log_f.close()
 
 if __name__ == "__main__":
     # Parse argument
