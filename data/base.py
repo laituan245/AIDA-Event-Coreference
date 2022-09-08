@@ -11,6 +11,7 @@ def mentionid2eventid(mention_id, dataset_name):
         return mention_id[:mention_id.rfind('-')]
     elif dataset_name == 'AIDA':
         return mention_id
+    return mention_id
 
 class Document:
     def __init__(self, doc_id, sentences, event_mentions, entity_mentions, dataset_name):
