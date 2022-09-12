@@ -49,7 +49,8 @@ def read_lorelei_jsonl(input_fp, tokenizer):
                     },
                     'original_text': x['sentence'][trigger[0]:trigger[1]],
                     'event_type': trigger[-1],
-                    'arguments': []
+                    'arguments': [],
+                    'doc_id': doc_id,
                 })
             token_offset += len(tokenizer.tokenize(x['sentence']))
             docid2tokenoffset[doc_id] = token_offset
@@ -89,7 +90,7 @@ if __name__ == "__main__":
 
     # Load data
     test = read_lorelei_jsonl(args.input, tokenizer)
-
+    print('Loaded test data ({} docs)'.format(len(test.data)))
 
     # Extract clusters
     predictions, pair_scores = generate_coref_preds(model, test)
@@ -100,3 +101,29 @@ if __name__ == "__main__":
     for c in all_clusters:
         c.sort(key=lambda x: x['id'])
     all_clusters.sort(key=lambda x: x[0]['id'])
+
+    # Prepare data for final output
+    docid2data = {}
+    for doc in test.data:
+        docid2data[doc.doc_id] = doc
+        doc.clusters = []
+    for cluster in all_clusters:
+        # Sanity check
+        cur_doc_id = cluster[0]['doc_id']
+        for mention in cluster:
+            assert(mention['doc_id'] == cur_doc_id)
+        # Update docid2data
+        cur_clusters = [m['id'] for m in cluster]
+        docid2data[cur_doc_id].clusters.append(cur_clusters)
+
+    # Write to a jsonl output file
+    with open('resources/LORELEI/event_outputs_sep8_coref.jsonl', 'w') as f:
+        for doc_id in docid2data:
+            cur_doc = docid2data[doc_id]
+            f.write(json.dumps({
+                'doc_id': cur_doc.doc_id,
+                'clusters': cur_doc.clusters,
+                'words': cur_doc.words,
+                'event_mentions': cur_doc.event_mentions
+            }))
+            f.write('\n')

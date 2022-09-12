@@ -11,6 +11,7 @@ from data import load_aida_dataset
 from scorer import get_predicted_antecedents
 from argparse import ArgumentParser
 from shutil import copyfile
+from tqdm import tqdm
 
 SAVED_PATH = 'model.pt'
 SAMPLE_DATA_PATH = '/shared/nas/data/m1/manling2/aida_docker_test/uiuc_ie_pipeline_fine_grained/output/output_dryrun_E32_gpu/'
@@ -22,7 +23,7 @@ def sigmoid(z):
 
 def generate_coref_preds(model, data):
     predictions, pair_scores = {}, []
-    for inst in data:
+    for inst in tqdm(data):
         doc_words = inst.words
         event_mentions = inst.event_mentions
 
