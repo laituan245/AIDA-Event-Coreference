@@ -27,9 +27,14 @@ def read_lorelei_jsonl(input_fp, tokenizer):
     with open(input_fp, 'r') as f:
         for line in f:
             x = json.loads(line)
-            doc_id = x['sent_id'].rsplit('.', 1)[0]
-            doc_ids.add(doc_id)
-            sent_id = int(x['sent_id'].rsplit('.', 1)[1])
+            if 'sent_id' in x:
+                doc_id = x['sent_id'].rsplit('.', 1)[0]
+                doc_ids.add(doc_id)
+                sent_id = int(x['sent_id'].rsplit('.', 1)[1])
+            else:
+                doc_id = 'document_{}'.format(len(doc_ids)+1)
+                doc_ids.add(doc_id)
+                sent_id = 1 + docid2sentid.get(doc_id, 0)
             assert(sent_id == 1 + docid2sentid.get(doc_id, 0))
             docid2sentid[doc_id] = sent_id
             tokens = tokenizer(x['sentence'])
