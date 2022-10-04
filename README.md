@@ -22,3 +22,4 @@ You can use the script `visualize.py` to visualize the output. The script requir
 ```
 python visualize.py -i output.jsonl -o visualization.html
 ```
+A sample visualization file is available [here](https://github.com/laituan245/AIDA-Event-Coreference/blob/chinese/resources/LORELEI/sample_visualizations/doc_1.html).
