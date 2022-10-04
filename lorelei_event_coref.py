@@ -23,6 +23,7 @@ def read_lorelei_jsonl(input_fp, tokenizer):
     docid2events = {}
     docid2tokenoffset = {}
     ev_count = 0
+    default_doc_id = 'document_1'
     #tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-large')
     with open(input_fp, 'r') as f:
         for line in f:
@@ -32,7 +33,7 @@ def read_lorelei_jsonl(input_fp, tokenizer):
                 doc_ids.add(doc_id)
                 sent_id = int(x['sent_id'].rsplit('.', 1)[1])
             else:
-                doc_id = 'document_{}'.format(len(doc_ids)+1)
+                doc_id = default_doc_id
                 doc_ids.add(doc_id)
                 sent_id = 1 + docid2sentid.get(doc_id, 0)
             assert(sent_id == 1 + docid2sentid.get(doc_id, 0))
@@ -75,6 +76,7 @@ if __name__ == "__main__":
     # Parse argument
     parser = ArgumentParser()
     parser.add_argument('-i', '--input', default='resources/LORELEI/event_outputs_sep8.jsonl')
+    parser.add_argument('-o', '--output', default='resources/LORELEI/event_outputs_sep8_coref.jsonl')
     args = parser.parse_args()
 
     # Initialize configs, tokenizer, and model
@@ -122,7 +124,7 @@ if __name__ == "__main__":
         docid2data[cur_doc_id].clusters.append(cur_clusters)
 
     # Write to a jsonl output file
-    with open('resources/LORELEI/event_outputs_sep8_coref.jsonl', 'w') as f:
+    with open(args.output, 'w') as f:
         for doc_id in docid2data:
             cur_doc = docid2data[doc_id]
             f.write(json.dumps({
