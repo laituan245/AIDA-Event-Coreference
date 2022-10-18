@@ -41,4 +41,5 @@ RUN /opt/conda/bin/conda create -n aida_coreference python=3.6 && \
 
 RUN /opt/conda/bin/conda clean -tipsy
 
-ENTRYPOINT ["/opt/conda/envs/aida_coreference/bin/python3.6", "lorelei_event_coref.py"]
+CMD ["/bin/bash"]
+

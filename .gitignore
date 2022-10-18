@@ -2,6 +2,7 @@
 tmp_input.cs
 sample_response.txt
 tmp/*
+model.pt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

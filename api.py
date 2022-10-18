@@ -4,6 +4,7 @@ import argparse
 import logging
 import uuid
 import json
+import lorelei_event_coref
 
 import concurrent.futures
 from shutil import rmtree
@@ -21,11 +22,24 @@ def process_data(data):
     logger.info('Created tmp output directory: {}'.format(run_tmp_dir))
 
     # Write an input file
-    with open(os.path.join(run_tmp_dir, 'input.jsonl'), 'w+') as input_f:
+    input_fp = os.path.join(run_tmp_dir, 'input.jsonl')
+    with open(input_fp, 'w+') as input_f:
         for d in data:
             input_f.write('{}\n'.format(json.dumps(d)))
+
+    # Processing
+    output_fp = os.path.join(run_tmp_dir, 'output.jsonl')
+    lorelei_event_coref.main(input_fp, output_fp)
+
+    # Read the output file
+    final_output = []
+    with open(output_fp, 'r') as output_f:
+        for line in f:
+            final_output.append(json.loads(line))
+
     # Remove the tmp dir
     rmtree(run_tmp_dir)
+    return final_output
 
 @app.route('/process', methods=['POST'])
 def process():
