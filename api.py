@@ -4,6 +4,7 @@ import argparse
 import logging
 import uuid
 import json
+import torch
 import lorelei_event_coref
 
 import concurrent.futures
@@ -34,12 +35,12 @@ def process_data(data):
     # Read the output file
     final_output = []
     with open(output_fp, 'r') as output_f:
-        for line in f:
+        for line in output_f:
             final_output.append(json.loads(line))
 
     # Remove the tmp dir
     rmtree(run_tmp_dir)
-    return final_output
+    return {'output': final_output}
 
 @app.route('/process', methods=['POST'])
 def process():
@@ -56,8 +57,9 @@ def process():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--port', default=20202)
+    parser.add_argument('--port', default=25202)
     args = parser.parse_args()
+    torch.multiprocessing.set_start_method('spawn')
 
     logger.info('done.')
     logger.info('start...')

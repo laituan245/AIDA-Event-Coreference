@@ -15,7 +15,7 @@ def read_data(jsonl_file):
 
 input_data = read_data('resources/LORELEI/sample_inputs/doc_1.jsonl')
 
-response = requests.post('http://localhost:20202/process', json={'data': input_data})
+response = requests.post('http://localhost:25202/process', json={'data': input_data})
 with open('sample_response.txt', 'w+') as f:
     f.write(response.text)
 
