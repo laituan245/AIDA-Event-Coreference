@@ -1,5 +1,7 @@
 .DS_Store
 tmp_input.cs
+sample_response.txt
+tmp/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
