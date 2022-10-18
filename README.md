@@ -1,14 +1,21 @@
 # Event Coreference Resolution (LORELEI - Chinese)
 
-The docker is currently available at: https://hub.docker.com/r/laituan245/chinese_event_coref
+This is the API-based version. Refer to [this branch](https://github.com/laituan245/AIDA-Event-Coreference/tree/chinese) for information on the non-API version.
+
+The docker is currently available at: https://hub.docker.com/r/laituan245/chinese_event_coref (the tag is `api`)
 
 ## Basic Instructions
 
-### Coreference Resolution
-A sample command for conducting **within-doc** event coreference resolution is shown below.
+### Coreference Resolution Server
+A sample command for starting the coreference resolution server is shown below. Note that here the designated port number is 20250.
 
 ```
-docker run --gpus '"device=1"' --rm -v /shared:/shared laituan245/chinese_event_coref -i input.jsonl -o output.jsonl
+docker run --gpus '"device=1"' --rm -p 20250:20250 -v /shared:/shared laituan245/chinese_event_coref:api bash -c "/opt/conda/envs/aida_coreference/bin/python3.6 api.py --port 20250"
+```
+
+You can refer to the script `send_request.py` on how to send a request:
+```
+python send_request.py
 ```
 
 A sample input file is available [here](https://github.com/laituan245/AIDA-Event-Coreference/blob/chinese/resources/LORELEI/sample_inputs/doc_1.jsonl).
