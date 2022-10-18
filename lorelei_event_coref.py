@@ -71,14 +71,7 @@ def read_lorelei_jsonl(input_fp, tokenizer):
         data.append(doc)
     return Dataset(data, tokenizer)
 
-# Main Code
-if __name__ == "__main__":
-    # Parse argument
-    parser = ArgumentParser()
-    parser.add_argument('-i', '--input', default='resources/LORELEI/event_outputs_sep8.jsonl')
-    parser.add_argument('-o', '--output', default='resources/LORELEI/event_outputs_sep8_coref.jsonl')
-    args = parser.parse_args()
-
+def main(args_input, args_output):
     # Initialize configs, tokenizer, and model
     configs = prepare_configs('basic')
     tokenizer = AutoTokenizer.from_pretrained(
@@ -96,7 +89,7 @@ if __name__ == "__main__":
     print('Initialized configs, tokenizer, and model')
 
     # Load data
-    test = read_lorelei_jsonl(args.input, tokenizer)
+    test = read_lorelei_jsonl(args_input, tokenizer)
     print('Loaded test data ({} docs)'.format(len(test.data)))
 
     # Extract clusters
@@ -124,7 +117,7 @@ if __name__ == "__main__":
         docid2data[cur_doc_id].clusters.append(cur_clusters)
 
     # Write to a jsonl output file
-    with open(args.output, 'w') as f:
+    with open(args_output, 'w') as f:
         for doc_id in docid2data:
             cur_doc = docid2data[doc_id]
             f.write(json.dumps({
@@ -134,3 +127,12 @@ if __name__ == "__main__":
                 'event_mentions': cur_doc.event_mentions
             }))
             f.write('\n')
+
+# Main Code
+if __name__ == "__main__":
+    # Parse argument
+    parser = ArgumentParser()
+    parser.add_argument('-i', '--input', default='resources/LORELEI/event_outputs_sep8.jsonl')
+    parser.add_argument('-o', '--output', default='resources/LORELEI/event_outputs_sep8_coref.jsonl')
+    args = parser.parse_args()
+    main(args.input, args.output)
