@@ -18,22 +18,15 @@ def event_mentions_to_html(doc_words, em):
     final_str = '<i>Event {} (Type {}) </i> | '.format(em['id'], em['event_type']) + final_str
     return final_str
 
-# Main Code
-if __name__ == "__main__":
-    # Parse argument
-    parser = ArgumentParser()
-    parser.add_argument('-i', '--input', default='resources/LORELEI/event_outputs_sep8_coref.jsonl')
-    parser.add_argument('-o', '--output', default='resources/LORELEI/visualization_sep8.html')
-    args = parser.parse_args()
-
+def main(args_input, args_output):
     # Read input
     docs = []
-    with open(args.input, 'r') as f:
+    with open(args_input, 'r') as f:
         for line in f:
             docs.append(json.loads(line))
 
     # Write output
-    with open(args.output, 'w+', encoding='utf-8') as output_file:
+    with open(args_output, 'w+', encoding='utf-8') as output_file:
         for doc in docs:
             doc_id = doc['doc_id']
             doc_words = doc['words']
@@ -49,3 +42,14 @@ if __name__ == "__main__":
                     output_file.write('{}<br>'.format(event_mentions_to_html(deepcopy(doc_words), em)))
                 output_file.write('<br><br>')
             output_file.write('<br><hr>')
+
+
+# Main Code
+if __name__ == "__main__":
+    # Parse argument
+    parser = ArgumentParser()
+    parser.add_argument('-i', '--input', default='resources/LORELEI/event_outputs_sep8_coref.jsonl')
+    parser.add_argument('-o', '--output', default='resources/LORELEI/visualization_sep8.html')
+    args = parser.parse_args()
+
+    main(args.input, args.output)
