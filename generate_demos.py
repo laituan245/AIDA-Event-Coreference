@@ -21,7 +21,26 @@ def generate_visualization(output_fp, sents, clusters):
     with open(output_fp, 'w+') as f:
         f.write('<h2>Document</h2>')
         for sent in sents:
-            f.write(sent['sentence'] + ' ')
+            if len(sent['events']) == 0:
+                f.write(sent['sentence'] + ' ')
+            else:
+                triggers = [e['trigger'][:2] for e in sent['events']]
+                triggers.sort()
+                cur_index = 0
+                spans = []
+                for t_s, t_e in triggers:
+                    spans.append([cur_index, t_s, 'non-event'])
+                    spans.append([t_s, t_e, 'event'])
+                    cur_index = t_e
+                if cur_index < len(sent['sentence']):
+                    spans.append([cur_index, len(sent['sentence']), 'non-event'])
+                sent_text = ''
+                for s_start, s_end, s_type in spans:
+                    raw_text = sent['sentence'][s_start:s_end]
+                    if s_type == 'event':
+                        raw_text = '<span style="color:red">'+ raw_text + '</span>'
+                    sent_text += raw_text
+                f.write(sent_text + ' ')
         f.write('\n<br><br>\n')
         for sent in sents:
             for e in sent['events']:
